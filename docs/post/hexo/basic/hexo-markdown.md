@@ -41,40 +41,40 @@ tags:
 ### 表格
 
 ```markdown
-| 表头1 | 表头1 |
-| ----- | ----- |
-| 内容1 | 内容2 |
+| 表头 1 | 表头 1 |
+| ------ | ------ |
+| 内容 1 | 内容 2 |
 ```
 
 效果：
 
-| 表头1 | 表头1 |
-| ----- | ----- |
-| 内容1 | 内容2 |
+| 表头 1 | 表头 1 |
+| ------ | ------ |
+| 内容 1 | 内容 2 |
 
 ### 分割线
 
 单独一行上使用三个或多个星号 (\*\*\*)、破折号 (---) 或下划线 (\_\_\_) ，并且不能包含其他内容
 
 ```markdown
-内容1
+内容 1
 
 ---
 
-内容2
+内容 2
 ```
 
 效果：
 
-内容1
+内容 1
 
 ---
 
-内容2
+内容 2
 
 ## 外挂标签
 
-参见 [hexo-theme-butterfly外挂标签](https://butterfly.js.org/posts/4aa8abbe/#%E6%A8%99%E7%B1%A4%E5%A4%96%E6%8E%9B%EF%BC%88Tag-Plugins%EF%BC%89)
+参见 [hexo-theme-butterfly 外挂标签](https://butterfly.js.org/posts/4aa8abbe/#%E6%A8%99%E7%B1%A4%E5%A4%96%E6%8E%9B%EF%BC%88Tag-Plugins%EF%BC%89)
 
 ### 文字标签
 
@@ -103,7 +103,7 @@ color 可选：default/blue/pink/red/purple/orange/green
 [height] ： 图片高度限制【可选】
 ```
 
-### tab页签
+### tab 页签
 
 ```markdown
 {% tabs Unique name, [index] %}
