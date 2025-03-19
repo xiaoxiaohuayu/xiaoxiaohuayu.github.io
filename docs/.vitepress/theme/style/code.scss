@@ -1,0 +1,99 @@
+/* 代码code：修改背景色 */
+.vp-doc :not(pre) > code {
+  background-color: rgba(var(--weiz-primary-color-rgb), 0.1);
+}
+
+/* 代码块：增加留空边距 增加阴影 */
+.vp-doc div[class*='language-'] {
+  box-shadow: var(--vp-code-block-shadow);
+  padding-top: 20px;
+  /* 代码块：添加macOS风格的小圆点 */
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: var(--macos-window-red);
+    border-radius: 50%;
+    box-shadow: 20px 0 0 var(--macos-window-yellow), 40px 0 0 var(--macos-window-green);
+    z-index: 1;
+  }
+  /* 代码块：下移行号 隐藏右侧竖线 */
+  .line-numbers-wrapper {
+    padding-top: 40px;
+    border-right: none;
+    /* 代码块：重建行号右侧竖线 */
+    &::after {
+      content: '';
+      position: absolute;
+      top: 40px;
+      right: 0;
+      border-right: 1px solid var(--vp-code-block-divider-color);
+      height: calc(100% - 60px);
+    }
+  }
+}
+.vp-doc {
+  .vp-code-group {
+    box-shadow: var(--vp-code-block-shadow);
+    border-radius: var(--vp-code-block-radius);
+    .tabs {
+      padding-top: 20px;
+      &::before {
+        content: ' ';
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        height: 12px;
+        width: 12px;
+        background: var(--macos-window-red);
+        border-radius: 50%;
+        box-shadow: 20px 0 var(--macos-window-yellow), 40px 0 var(--macos-window-green);
+      }
+    }
+    div[class*='language-'] {
+      box-shadow: none;
+      padding-top: 0;
+      &::before {
+        display: none;
+      }
+      .line-numbers-wrapper {
+        padding-top: 20px;
+        &::after {
+          top: 20px;
+          height: calc(100% - 40px);
+        }
+      }
+    }
+  }
+  // 标签前面图标
+  [data-title$=\.css]:before {
+    content: "";
+    --icon: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxZW0nIGhlaWdodD0nMWVtJyB2aWV3Qm94PScwIDAgMzIgMzInPjxwYXRoIGZpbGw9JyMxNTcyYjYnIGQ9J001LjkwMiAyNy4yMDFMMy42NTYgMmgyNC42ODhsLTIuMjQ5IDI1LjE5N0wxNS45ODUgMzB6Jy8+PHBhdGggZmlsbD0nIzMzYTlkYycgZD0nbTE2IDI3Ljg1OGw4LjE3LTIuMjY1bDEuOTIyLTIxLjUzMkgxNnonLz48cGF0aCBmaWxsPScjZmZmJyBkPSdNMTYgMTMuMTkxaDQuMDlsLjI4Mi0zLjE2NUgxNlY2LjkzNWg3Ljc1bC0uMDc0LjgyOWwtLjc1OSA4LjUxOEgxNnonLz48cGF0aCBmaWxsPScjZWJlYmViJyBkPSdtMTYuMDE5IDIxLjIxOGwtLjAxNC4wMDRsLTMuNDQyLS45M2wtLjIyLTIuNDY1SDkuMjRsLjQzMyA0Ljg1M2w2LjMzMSAxLjc1OGwuMDE1LS4wMDR6Jy8+PHBhdGggZmlsbD0nI2ZmZicgZD0nbTE5LjgyNyAxNi4xNTFsLS4zNzIgNC4xMzlsLTMuNDQ3LjkzdjMuMjE2bDYuMzM2LTEuNzU2bC4wNDctLjUyMmwuNTM3LTYuMDA3eicvPjxwYXRoIGZpbGw9JyNlYmViZWInIGQ9J00xNi4wMTEgNi45MzV2My4wOTFIOC41NDVsLS4wNjItLjY5NWwtLjE0MS0xLjU2N2wtLjA3NC0uODI5ek0xNiAxMy4xOTF2My4wOTFoLTMuMzk5bC0uMDYyLS42OTVsLS4xNC0xLjU2N2wtLjA3NC0uODI5eicvPjwvc3ZnPg==");
+  }
+  [data-title=pnpm]:before {
+    content: "";
+    --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 32 32'%3E%3Cpath fill='%23f9ad00' d='M30 10.75h-8.749V2H30Zm-9.626 0h-8.75V2h8.75Zm-9.625 0H2V2h8.749ZM30 20.375h-8.749v-8.75H30Z'/%3E%3Cpath fill='%234e4e4e' d='M20.374 20.375h-8.75v-8.75h8.75Zm0 9.625h-8.75v-8.75h8.75ZM30 30h-8.749v-8.75H30Zm-19.251 0H2v-8.75h8.749Z'/%3E%3C/svg%3E");
+  }
+  [data-title=yarn]:before {
+    content: "";
+    --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 32 32'%3E%3Cpath fill='%232188b6' d='M28.208 24.409a10.5 10.5 0 0 0-3.959 1.822a23.7 23.7 0 0 1-5.835 2.642a1.63 1.63 0 0 1-.983.55a62 62 0 0 1-6.447.577c-1.163.009-1.876-.3-2.074-.776a1.573 1.573 0 0 1 .866-2.074a4 4 0 0 1-.514-.379c-.171-.171-.352-.514-.406-.388c-.225.55-.343 1.894-.947 2.5c-.83.839-2.4.559-3.328.072c-1.019-.541.072-1.813.072-1.813a.73.73 0 0 1-.992-.343a4.85 4.85 0 0 1-.667-2.949a5.37 5.37 0 0 1 1.749-2.895a9.3 9.3 0 0 1 .658-4.4a10.45 10.45 0 0 1 3.165-3.661S6.628 10.747 7.35 8.817c.469-1.262.658-1.253.812-1.308a3.6 3.6 0 0 0 1.452-.857a5.27 5.27 0 0 1 4.41-1.7S15.2 1.4 16.277 2.09a18.4 18.4 0 0 1 1.533 2.886s1.281-.748 1.425-.469a11.33 11.33 0 0 1 .523 6.132a14 14 0 0 1-2.6 5.411c-.135.225 1.551.938 2.615 3.887c.983 2.7.108 4.96.262 5.212c.027.045.036.063.036.063s1.127.09 3.391-1.308a8.5 8.5 0 0 1 4.277-1.604a1.081 1.081 0 0 1 .469 2.11Z'/%3E%3C/svg%3E");
+  }
+  .vp-code-block-title [data-title]:before,
+  .vp-code-group [data-title]:before {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: .5em;
+    margin-bottom: -.2em;
+    background: var(--icon) no-repeat center / contain;
+  }
+}
+
+/* 动态生成的代码 */
+.vp-doc pre.dynamic-code {
+  display: flex;
+}

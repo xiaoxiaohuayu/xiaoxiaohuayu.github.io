@@ -1,0 +1,155 @@
+/* 基础变量&主题色 */
+:root {
+  --weiz-primary-color: #409eff;
+  --weiz-primary-color-rgb: 64,158,255;
+  --weiz-primary-color-dark: rgb(51.2, 126.4, 204);
+  --vp-c-bg-rgb: 255,255,255;
+  --vp-c-bg-reverse-rgb: 25,26,28;
+  --weiz-font-size: 14px;
+  
+  --vp-c-bg-soft: #F8F9FB;
+  --weiz-primary-color-light-1: rgb(121.3, 187.1, 255);
+  --weiz-primary-color-light-2: rgb(159.5, 206.5, 255);
+  --weiz-primary-color-light-3: rgb(197.7, 225.9, 255);
+  --weiz-primary-color-light-4: rgb(216.8, 235.6, 255);
+  --weiz-primary-color-light-5: rgb(235.9, 245.3, 255);
+
+  --vp-c-text-4: rgba(60, 60, 67, 0.34);
+  --vp-c-text-5: rgba(60, 60, 67, 0.12);
+  --vp-c-text-6: #99a9bf;
+  --weiz-font-weight-medium: 500;
+  --weiz-font-weight-semibold: 600;
+  --weiz-font-weight-bold: 700;
+
+  --weiz-font-size-xs: 0.75rem;
+  --weiz-font-size-sm: 0.875rem;
+  --weiz-font-size-st: 1rem;
+  --weiz-font-size-xl: 1.25rem;
+  --weiz-font-size-2xl: 1.5rem;
+  --weiz-font-size-3xl: 1.875rem;
+
+  --weiz-text-xs-line-height: calc(1 / 0.75);
+  --weiz-text-sm-line-height: calc(1.25 / 0.875);
+  --weiz-text-st-line-height: calc(1.5 / 1);
+  --weiz-text-xl-line-height: calc(1.75 / 1.25);
+  --weiz-text-2xl-line-height: calc(2 / 1.5);
+  --weiz-text-3xl-line-height: calc(2.25 / 1.875);
+
+  // 颜色 - 紫红色
+  --vp-c-purple-1: #bd34fe;
+
+  --vp-c-indigo-1: var(--weiz-primary-color);
+  --vp-c-indigo-1-rgb: var(--weiz-primary-color-rgb);
+  --vp-c-indigo-2: var(--weiz-primary-color-light-1);
+
+  // 基础单位 font 16px -> 4px
+  --weiz-spacing: 0.25rem;
+  --weiz-spacing-2xl: calc(var(--weiz-spacing) * 2);
+  --weiz-spacing-3xl: calc(var(--weiz-spacing) * 3);
+  --weiz-spacing-4xl: calc(var(--weiz-spacing) * 4);
+  --weiz-spacing-6xl: calc(var(--weiz-spacing) * 6);
+  --weiz-spacing-8xl: calc(var(--weiz-spacing) * 8);
+
+  // shadow
+  --weiz-shadow: 0 1px 2px 0 rgba(var(--vp-c-bg-reverse-rgb), 0.05);
+  --weiz-shadow-hover: 0 10px 15px -3px rgba(var(--vp-c-bg-reverse-rgb), 0.1), 0 4px 6px -4px rgba(var(--vp-c-bg-reverse-rgb), 0.1);
+
+  // border
+  --weiz-border-color: #dcdfe6;
+  --weiz-border-radius: var(--weiz-spacing-2xl);
+  --weiz-card-border-radius: var(--weiz-spacing-4xl);
+
+  // position z-index
+  --weiz-index-footer: 10;
+  --weiz-index-backTop: 99;
+  --weiz-index-topShadow: 999;
+
+  // 默认动画
+  --weiz-transition: all 0.2s;
+  --weiz-transition-3: all 0.3s;
+  --weiz-transition-4: all 0.4s;
+  --weiz-transition-6: all 0.6s;
+}
+
+
+.dark {
+  --vp-c-bg-soft: #202127;
+
+  --weiz-primary-color: #409eff;
+  --weiz-primary-color-rgb: 64,158,255;
+  --weiz-primary-color-dark: rgb(102.2, 177.4, 255);
+  --vp-c-bg-rgb: 25,26,28;
+  --vp-c-bg-reverse-rgb: 255,255,255;
+
+  --weiz-primary-color-light-1: rgb(50.8, 116.6, 184.5);
+  --weiz-primary-color-light-2: rgb(42, 89, 137.5);
+  --weiz-primary-color-light-3: rgb(33.2, 61.4, 90.5);
+  --weiz-primary-color-light-4: rgb(28.8, 47.6, 67);
+  --weiz-primary-color-light-5: rgb(24.4, 33.8, 43.5);
+
+  --vp-c-text-4: rgba(235, 235, 245, 0.24);
+  --vp-c-text-5: rgba(235, 235, 245, 0.08);
+  --vp-c-text-6: #99a9bf;
+}
+
+/* MacOS风格相关颜色 */
+:root {
+  --macos-window-red: #FE5450;
+  --macos-window-yellow: #FFB23B;
+  --macos-window-green: #30C045;
+}
+
+/* 提示块 */
+:root {
+  --weiz-block-radius: var(--weiz-border-radius);
+  
+  --weiz-block-info: #909399;
+  --weiz-block-info-rgb: 133,136,142;
+  --weiz-block-info-bg: rgba(var(--weiz-block-info-rgb), .1);
+
+  --weiz-block-note: var(--vp-c-indigo-1);
+  --weiz-block-note-rgb: var(--vp-c-indigo-1-rgb);
+  --weiz-block-note-bg: rgba(var(--weiz-block-note-rgb), .1);
+
+  --weiz-block-tip: #67c23a;
+  --weiz-block-tip-rgb: 97,185, 64;
+  --weiz-block-tip-bg: rgba(var(--weiz-block-tip-rgb), .1);
+
+  --weiz-block-important: #a371f7;
+  --weiz-block-important-rgb: 149,105,240;
+  --weiz-block-important-bg: rgba(var(--weiz-block-important-rgb), .1);
+
+  --weiz-block-warning: #e6a23c;
+  --weiz-block-warning-rgb: 227,151, 63;
+  --weiz-block-warning-bg: rgba(var(--weiz-block-warning-rgb), .1);
+
+  --weiz-block-danger: #f05659;
+  --weiz-block-danger-rgb: 243, 97, 98;
+  --weiz-block-danger-bg: rgba(var(--weiz-block-danger-rgb), .1);
+}
+
+/* 徽章 */
+:root {
+  --vp-badge-info-border: var(--weiz-block-note);
+  --vp-badge-info-text: var(--weiz-block-note);
+  --vp-badge-info-bg: var(--weiz-block-note-bg);
+
+  --vp-badge-tip-border: var(--weiz-block-tip);
+  --vp-badge-tip-text: var(--weiz-block-tip);
+  --vp-badge-tip-bg: var(--weiz-block-tip-bg);
+
+  --vp-badge-warning-border: var(--weiz-block-warning);
+  --vp-badge-warning-text: var(--weiz-block-warning);
+  --vp-badge-warning-bg: var(--weiz-block-warning-bg);
+
+  --vp-badge-danger-border: var(--weiz-block-danger);
+  --vp-badge-danger-text: var(--weiz-block-danger);
+  --vp-badge-danger-bg: var(--weiz-block-danger-bg);
+}
+
+/* 页脚定位层级 */
+@media (min-width: 960px) {
+  :root {
+    --weiz-index-footer: 30;
+  }
+}

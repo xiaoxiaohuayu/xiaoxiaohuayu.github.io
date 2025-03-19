@@ -1,0 +1,18 @@
+{
+	"vue3 基础模版": {
+    "scope": "vue",
+    "prefix": "!vue3",
+    "body": [
+      "<template>",
+      "\t<div>$1</div>",
+      "</template>\n",
+      "<script setup lang='ts'>",
+      "$2",
+      "</script>\n",
+      "<style lang='scss' scoped>\n",
+      "</style>",
+      ""
+    ],
+    "description": "vue3 基础模版"
+  }
+}

@@ -1,0 +1,217 @@
+/**
+* 界面布局
+* -------------------------------------------------------------------------- */
+footer.VPFooter {
+  display: none;
+}
+
+/**
+* 导航栏
+* -------------------------------------------------------------------------- */
+@media (min-width: 960px) {
+  .VPNav .VPNavBar {
+    background: var(--vp-nav-bg-color);
+  }
+  .VPNav .VPNavBarTitle.has-sidebar .title {
+    border-bottom-color: transparent;
+  }
+}
+.VPNavBar {
+  box-shadow: var(--weiz-shadow);
+}
+.VPContent.has-sidebar {
+  background: var(--vp-nav-bg-color);
+}
+/* 导航栏下划线隐藏 */
+.divider {
+  display: none;
+}
+
+/**
+* 页面导航
+* -------------------------------------------------------------------------- */
+.VPDocAsideOutline .outline-title {
+  color: var(--weiz-primary-color);
+}
+
+/**
+* 自定义页面初始化
+* -------------------------------------------------------------------------- */
+.weiz-home,
+.weiz-post,
+.weiz-tag {
+  .VPContent {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    @media (min-width: 640px) {
+      padding: 3rem 1.5rem;
+    }
+    @media (min-width: 960px) {
+      margin-top: 64px;
+    }
+    @media (min-width: 1024px) {
+      padding: 3rem 2rem;
+    }
+    h1 {
+      font-size: var(--weiz-font-size-2xl);
+      line-height: var(--weiz-text-2xl-line-height);
+      color: var(--vp-c-text-1);
+      background-clip: initial;
+      background: none;
+      -webkit-text-fill-color: initial;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    margin: 0;
+    font-size: initial;
+    line-height: initial;
+  }
+  p {
+    margin: 0;
+    font-size: initial;
+    line-height: initial;
+  }
+}
+/**
+* 界面元素/组件
+* -------------------------------------------------------------------------- */
+body {
+  font-size: var(--weiz-font-size);
+  background-color: var(--vp-c-bg-soft);
+}
+
+pre:not(.vp-code) {
+  font-size: var(--vp-code-font-size);
+}
+
+/* 链接 */
+.vp-doc a {
+  &:hover {
+    color: var(--weiz-primary-color-light-1);
+  }
+  &:active {
+    color: var(--weiz-primary-color-dark);
+  }
+}
+
+/* 图片 */
+.vp-doc img:not([src^="https://img.shields.io"]) {
+  max-height: 700px;
+  border: solid 1px var(--vp-c-divider);
+  border-radius: var(--weiz-border-radius);
+  cursor: pointer;
+}
+
+
+/* 按钮 */
+:root {
+  --vp-button-brand-bg: var(--weiz-primary-color);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-bg: var(--weiz-primary-color-light-1);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-bg: var(--weiz-primary-color-dark);
+}
+
+/* 代码 */
+:root {
+  --vp-code-link-hover-color: var(--weiz-primary-color-light-1);
+}
+.vp-doc .code-wrap [class*='language-'] pre,
+.vp-doc .code-wrap [class*='language-'] code {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* 搜索 */
+:root {
+  --docsearch-primary-color: var(--weiz-primary-color);
+  --docsearch-logo-color: var(--weiz-primary-color);
+}
+.cls-1, .cls-2 {
+  fill: var(--docsearch-primary-color) !important;
+}
+
+/* 编辑按钮 */
+.edit-link-button:hover {
+  color: var(--weiz-primary-color-light-1);
+}
+
+/* 文章内标题 */
+.vp-doc h1 {
+  color: transparent;
+  background: -webkit-linear-gradient(120deg, var(--vp-c-purple-1) 30%, var(--weiz-primary-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.vp-doc h2 {
+  color: var(--weiz-primary-color);
+}
+.vp-doc h4 {
+  font-size: 16px;
+}
+
+/* 导航 */
+.outline-title {
+  color: var(--vp-c-text-2);
+}
+.VPDocOutlineItem.root > li > .outline-link {
+  color: var(--vp-c-text-1);
+  font-weight: 500;
+}
+.VPDocAsideOutline.has-outline .outline-marker {
+  width: 4px;
+  border-radius: 4px;
+}
+
+/**
+* 首页消除导航栏的下划线
+* -------------------------------------------------------------------------- */
+.weiz-home .divider,
+.weiz-home .divider-line {
+  background: none !important;
+}
+
+/**
+* element组件样式
+* -------------------------------------------------------------------------- */
+
+/**
+* 插件
+* -------------------------------------------------------------------------- */
+// fancybox 图片缩放
+.fancybox__container {
+  --fancybox-bg: none;
+  .fancybox__toolbar {
+    --f-button-bg: none;
+    --f-button-hover-bg: rgba(var(--vp-c-bg-reverse-rgb), .1);
+    --f-button-color: rgba(var(--vp-c-bg-reverse-rgb), 1);
+    --f-button-hover-color: rgba(var(--vp-c-bg-reverse-rgb), 1);
+    --f-button-svg-disabled-opacity: 0.2;
+    background: rgba(var(--vp-c-bg-rgb), 0.2);
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(var(--vp-c-bg-rgb), 0.5);
+    opacity: 0.96;
+    backdrop-filter: blur(10px);
+  }
+}
+.fancybox-image {
+  object-fit: initial;
+  border: solid 1px rgba(var(--vp-c-bg-reverse-rgb), .5);
+  border-radius: var(--weiz-card-border-radius);
+}
+// NProgress
+#nprogress .bar {
+  background: var(--weiz-primary-color);
+}
