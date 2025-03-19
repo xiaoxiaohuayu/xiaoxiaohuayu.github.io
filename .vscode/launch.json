@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug TypeScript",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/docs/.vitepress/config/index.ts",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "sourceMaps": true
+    }
+  ]
+} 

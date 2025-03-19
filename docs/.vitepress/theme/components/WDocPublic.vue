@@ -2,22 +2,32 @@
   <div class="weiz-public">
     <div class="copyright">
       <div class="copyright__author">
-        <span class="copyright-meta"> <i class="weiz-icon weiz-icon-user main"></i>文章作者: </span>
+        <span class="copyright-meta">
+          <i class="weiz-icon weiz-icon-user main"></i>文章作者:
+        </span>
         <span class="copyright-info">
-          <a :href="siteHref">weizwz</a>
+          <a :href="siteHref">xiaohuayu</a>
         </span>
       </div>
       <div class="copyright__type">
-        <span class="copyright-meta"> <i class="weiz-icon weiz-icon-link main"></i>文章链接: </span>
+        <span class="copyright-meta">
+          <i class="weiz-icon weiz-icon-link main"></i>文章链接:
+        </span>
         <span class="copyright-info">
           <a :href="postHref">{{ postHref }}</a>
         </span>
       </div>
       <div class="copyright__notice">
-        <span class="copyright-meta"> <i class="weiz-icon weiz-icon-cc main"></i>版权声明: </span>
+        <span class="copyright-meta">
+          <i class="weiz-icon weiz-icon-cc main"></i>版权声明:
+        </span>
         <span class="copyright-info">
           本站文章除特别声明外，均采用
-          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">BY-NC-SA 4.0</a>
+          <a
+            href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
+            target="_blank"
+            >BY-NC-SA 4.0</a
+          >
           许可协议， 转载请注明来自 <a :href="siteHref">{{ theme.siteTitle }}</a
           >！
         </span>
@@ -27,38 +37,43 @@
   </div>
   <div class="post-tags">
     <div class="tags-list">
-      <a v-for="(item, index) of postTags" :key="index" :href="withBase('/pages/tags?q=' + encodeURIComponent(item))" class="tag">{{
-        item
-      }}</a>
+      <a
+        v-for="(item, index) of postTags"
+        :key="index"
+        :href="withBase('/pages/tags?q=' + encodeURIComponent(item))"
+        class="tag"
+        >{{ item }}</a
+      >
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { useData, useRoute, withBase } from 'vitepress'
-import { onMounted, ref, watch } from 'vue'
+import { useData, useRoute, withBase } from "vitepress";
+import { onMounted, ref, watch } from "vue";
 
-const { site, theme, frontmatter } = useData()
-const route = useRoute()
+const { site, theme, frontmatter, about } = useData();
+console.log(site);
+const route = useRoute();
 
-const siteHref = ref('')
-const postHref = ref('')
-const postTags = ref([])
+const siteHref = ref("");
+const postHref = ref("");
+const postTags = ref([]);
 
 const setHref = () => {
-  const domain = window.location.origin
-  siteHref.value = domain + site.value.base
-  postHref.value = domain + window.location.pathname
-  postTags.value = frontmatter.value.tags
-}
+  const domain = window.location.origin;
+  siteHref.value = domain + site.value.base;
+  postHref.value = domain + window.location.pathname;
+  postTags.value = frontmatter.value.tags;
+};
 
 watch(route, () => {
-  setHref()
-})
+  setHref();
+});
 
 onMounted(() => {
-  setHref()
-})
+  setHref();
+});
 </script>
 
 <style lang="scss" scoped>

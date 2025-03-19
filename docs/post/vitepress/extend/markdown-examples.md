@@ -17,52 +17,62 @@ tags:
 ### 基本配置
 
 ::: code-group
+
 ```ts [.vitepress/config/index.ts]
 export default defineConfig({
   // markdown配置搞里头
-  markdown:{
-      // 代码块行号显示
-      lineNumbers: true,
-      // 图片懒加载
-      image: {
-        lazyLoading: true
-      },
-      // 代码框内复制按钮的 title 提示
-      codeCopyButtonTitle: '复制代码',
+  markdown: {
+    // 代码块行号显示
+    lineNumbers: true,
+    // 图片懒加载
+    image: {
+      lazyLoading: true,
+    },
+    // 代码框内复制按钮的 title 提示
+    codeCopyButtonTitle: "复制代码",
   },
-})
+});
 ```
+
 :::
 
 ### 标题锚点 {#title-link}
+
 标题会自动应用当前标题文字作为锚点，也支持自定义锚点，格式为 `标题+空格+{#自定义锚点}`
+
 ```md
 ## 标题锚点 {#title-link}
 ```
+
 也可以利用链接跳转到指定标题
+
 ```md
 [点击我跳转到基本配置](#基本配置)
 ```
+
 **结果展示**
 
 [点击我跳转到基本配置](#基本配置)
 
 ### 网页链接
+
 网页链接的基本格式为 `[链接名称](链接url)`，而 `VitePress` 对网页链接做了特殊处理：
 内部链接将转换为单页导航的路由链接，外部链接带有 `target="_blank" rel="noreferrer"`。示例如下
 
 ```md
 [跳到当前页的网页链接](/vitepress/extend/markdown-examples#网页链接)
 
-[新打开网页-唯知笔记](https://note.weizwz.com/)
+[新打开网页-桦鱼笔记](https://note.weizwz.com/)
 ```
+
 **结果展示**
 
 [跳到当前页的网页链接](/vitepress/extend/markdown-examples#网页链接)
 
-[新打开网页-唯知笔记](https://note.weizwz.com/)
+[新打开网页-桦鱼笔记](https://note.weizwz.com/)
 
 ### 图片引用
+
 图片引用的基本格式 `![图片说明文字](图片路径)`，这里的图片路径可以使用`相对位置/绝对位置/在线地址`。
 
 如果你的图片文件放置在 `public` 目录下，那么使用绝对位置时可以省略 `public` 这一层。详情说明见 [Vitepress - public 目录](https://vitepress.dev/zh/guide/asset-handling#the-public-directory)
@@ -72,16 +82,16 @@ export default defineConfig({
 ```md
 .
 ├─ docs
-│  ├─ .vitepress
-│  │  └─ config.ts
-│  ├─ public
-│  │  └─ logo.png     <------------------- LOGO位置
-│  ├─ markdown.md
-│  └─ post
-│     └─vitepress
-│        └─ extend
-│           └─ markdown-examples.md    <-- 当前文档位置
-│ 
+│ ├─ .vitepress
+│ │ └─ config.ts
+│ ├─ public
+│ │ └─ logo.png <------------------- LOGO 位置
+│ ├─ markdown.md
+│ └─ post
+│ └─vitepress
+│ └─ extend
+│ └─ markdown-examples.md <-- 当前文档位置
+│
 └─ package.json
 ```
 
@@ -95,6 +105,7 @@ export default defineConfig({
 在线地址
 ![logo](https://note.weizwz.com/logo.png)
 ```
+
 **结果展示**
 
 相对位置
@@ -110,24 +121,26 @@ export default defineConfig({
 
 ```md
 | 默认居左对齐 | 居中对齐 | 居右对齐 |
-| ---------- | :-----: | -----: |
-| 内容1       | 内容2   | 内容3   |
-| 内容4       | 内容5   | 内容6   |
+| ------------ | :------: | -------: |
+| 内容 1       |  内容 2  |   内容 3 |
+| 内容 4       |  内容 5  |   内容 6 |
 ```
+
 **结果展示**
 
 | 默认居左对齐 | 居中对齐 | 居右对齐 |
-| ---------- | :-----: | -----: |
-| 内容1       | 内容2   | 内容3   |
-| 内容4       | 内容5   | 内容6   |
+| ------------ | :------: | -------: |
+| 内容 1       |  内容 2  |   内容 3 |
+| 内容 4       |  内容 5  |   内容 6 |
 
-### Emoji表情
+### Emoji 表情
 
 `Vitepress` 内置了常用的表情，供我们使用。查看所有 [Vitepress 支持的表情](https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs)，或者查看 [表情包大全](https://www.emojiall.com/zh-hans)
 
 ```md
 :cn: :eight: :seven:
 ```
+
 **结果展示**
 
 :cn: :eight: :seven:
@@ -137,6 +150,7 @@ export default defineConfig({
 ```md
 [[toc]]
 ```
+
 **结果展示**
 
 [[toc]]
@@ -149,6 +163,7 @@ export default defineConfig({
   Markdown默认折叠语法，Vitepress可以使用容器折叠语法，更加美观
 </details>
 ```
+
 **结果展示**
 
 <details>
@@ -171,6 +186,7 @@ VitePress <Badge type="warning" text="beta" />
 
 VitePress <Badge type="danger" text="caution" />
 ```
+
 **结果展示**
 
 VitePress <Badge type="info" text="default" />
@@ -186,6 +202,7 @@ VitePress <Badge type="danger" text="caution" />
 ```md
 > 这是一个引用 `VitePress`
 ```
+
 **结果展示**
 
 > 这是一个引用 `VitePress`
@@ -197,6 +214,7 @@ VitePress <Badge type="danger" text="caution" />
 这是一个折叠容器
 :::
 ```
+
 **结果展示**
 
 ::: details 点我查看
@@ -222,6 +240,7 @@ VitePress <Badge type="danger" text="caution" />
 这是一个危险警告，格式为：`danger+空格+自定义文字`
 :::
 ```
+
 **结果展示**
 
 ::: info 信息
@@ -240,7 +259,7 @@ VitePress <Badge type="danger" text="caution" />
 这是一个危险警告，格式为：`danger+空格+自定义文字`
 :::
 
-### github提示
+### github 提示
 
 ```md
 > [!NOTE] 提示
@@ -258,6 +277,7 @@ VitePress <Badge type="danger" text="caution" />
 > [!CAUTION] 危险
 > 行为可能带来的负面影响。
 ```
+
 **结果展示**
 
 > [!NOTE] 提示
@@ -275,17 +295,17 @@ VitePress <Badge type="danger" text="caution" />
 > [!CAUTION] 危险
 > 行为可能带来的负面影响。
 
-
 ## 代码高亮
 
-### code标识
+### code 标识
 
-使用 code标识 可以对单个 `代码单词` 或者 `专业名词` 进行标注，以便高亮显示。其语法是，使用 `` 或者 `<code>` 标签
+使用 code 标识 可以对单个 `代码单词` 或者 `专业名词` 进行标注，以便高亮显示。其语法是，使用 ``或者`<code>` 标签
 
 ```md
 `Vitepress` 高亮显示
 <code>Vitepress</code> 高亮显示
 ```
+
 **结果展示**
 
 `Vitepress` 高亮显示
@@ -298,12 +318,12 @@ VitePress <Badge type="danger" text="caution" />
 ````md
 ```js
 export default {
-  data () {
+  data() {
     return {
-      title: '唯知笔记'
-    }
-  }
-}
+      title: "桦鱼笔记",
+    };
+  },
+};
 ```
 ````
 
@@ -311,12 +331,12 @@ export default {
 
 ```js
 export default {
-  data () {
+  data() {
     return {
-      title: '唯知笔记'
-    }
-  }
-}
+      title: "桦鱼笔记",
+    };
+  },
+};
 ```
 
 ### 行高亮
@@ -330,7 +350,7 @@ export default {
 export default {
   data () {
     return {
-      title: '唯知笔记',
+      title: '桦鱼笔记',
       desc: '高效的知识分享网站',
       tagline: '知之为知之，不知为不知' //  [!!code highlight]
     }
@@ -345,7 +365,7 @@ export default {
 export default {
   data () {
     return {
-      title: '唯知笔记',
+      title: '桦鱼笔记',
       desc: '高效的知识分享网站',
       tagline: '知之为知之，不知为不知' //  [!code highlight]
     }
@@ -362,45 +382,46 @@ export default {
 ````md
 ```js
 export default {
-  data () {
+  data() {
     return {
-      title: '唯知笔记', // [!!code focus:2]
-      desc: '高效的知识分享网站',
-      tagline: '知之为知之，不知为不知'
-    }
-  }
-}
+      title: "桦鱼笔记", // [!!code focus:2]
+      desc: "高效的知识分享网站",
+      tagline: "知之为知之，不知为不知",
+    };
+  },
+};
 ```
 ````
+
 **结果展示**
 
 ```js
 export default {
-  data () {
+  data() {
     return {
-      title: '唯知笔记', // [!code focus:2]
-      desc: '高效的知识分享网站',
-      tagline: '知之为知之，不知为不知'
-    }
-  }
-}
+      title: "桦鱼笔记", // [!code focus:2]
+      desc: "高效的知识分享网站",
+      tagline: "知之为知之，不知为不知",
+    };
+  },
+};
 ```
 
-### diff差异
+### diff 差异
 
 在某一行添加 `// [!code --]` 或 `// [!code ++]` 注释将会为该行创建 `diff`，同时保留代码块的颜色。
 
 ````md
 ```js
 export default {
-  data () {
+  data() {
     return {
-      title: '唯知笔记',
-      desc: '一个有趣的的知识分享网站', // [!!code --]
-      desc: '高效的知识分享网站', // [!!code ++]
-    }
-  }
-}
+      title: "桦鱼笔记",
+      desc: "一个有趣的的知识分享网站", // [!!code --]
+      desc: "高效的知识分享网站", // [!!code ++]
+    };
+  },
+};
 ```
 ````
 
@@ -408,29 +429,30 @@ export default {
 
 ```js
 export default {
-  data () {
+  data() {
     return {
-      title: '唯知笔记',
-      desc: '一个有趣的的知识分享网站', // [!code --]
-      desc: '高效的知识分享网站', // [!code ++]
-    }
-  }
-}
+      title: "桦鱼笔记",
+      desc: "一个有趣的的知识分享网站", // [!code --]
+      desc: "高效的知识分享网站", // [!code ++]
+    };
+  },
+};
 ```
 
 ### 错误和告警
+
 在某一行添加 `// [!code warning]` 或 `// [!code error]` 注释将会为该行相应的着色
 
 ````md
 ```js
 export default {
-  data () {
+  data() {
     return {
-      error: 'error', // [!!code error]
-      warning: 'warning', // [!!code warning]
-    }
-  }
-}
+      error: "error", // [!!code error]
+      warning: "warning", // [!!code warning]
+    };
+  },
+};
 ```
 ````
 
@@ -438,13 +460,13 @@ export default {
 
 ```js
 export default {
-  data () {
+  data() {
     return {
-      error: 'error', // [!code error]
-      warning: 'warning', // [!code warning]
-    }
-  }
-}
+      error: "error", // [!code error]
+      warning: "warning", // [!code warning]
+    };
+  },
+};
 ```
 
 ### 代码导入
@@ -456,12 +478,12 @@ export default {
 ```md
 .
 ├─ docs
-│  └─ post
-│     └─vitepress
-│        └─ extend
-│           └─ markdown-examples.md    <-- 当前文档位置
-│           └─ markdown-examples.vue   <-- 当前引用的文件位置
-│ 
+│ └─ post
+│ └─vitepress
+│ └─ extend
+│ └─ markdown-examples.md <-- 当前文档位置
+│ └─ markdown-examples.vue <-- 当前引用的文件位置
+│
 └─ package.json
 ```
 
@@ -486,8 +508,8 @@ export default {
 
 ```md
 <<< ./markdown-examples.vue#text{2}
-
 ```
+
 **导入结果展示**
 
 <<< ./markdown-examples.vue#text{2}
@@ -500,12 +522,12 @@ export default {
 ````md
 ```js
 export default {
-  data () {
+  data() {
     return {
-      title: '唯知笔记'
-    }
-  }
-}
+      title: "桦鱼笔记",
+    };
+  },
+};
 ```
 ````
 `````
@@ -515,12 +537,12 @@ export default {
 ````md
 ```js
 export default {
-  data () {
+  data() {
     return {
-      title: '唯知笔记'
-    }
-  }
-}
+      title: "桦鱼笔记",
+    };
+  },
+};
 ```
 ````
 
@@ -528,56 +550,68 @@ export default {
 
 ````md
 ::: code-group
+
 ```sh [pnpm]
 #查询pnpm版本
 pnpm -v
 ```
+
 ```sh [yarn]
 #查询yarn版本
 yarn -v
 ```
+
 :::
 ````
+
 **结果展示**
 
 ::: code-group
+
 ```sh [pnpm]
 #查询pnpm版本
 pnpm -v
 ```
+
 ```sh [yarn]
 #查询yarn版本
 yarn -v
 ```
+
 :::
 
 ### 代码标题
 
 利用代码块组的语法和效果，我们也可以为单个代码块显示代码块标题或者代码文件名称及文件路径
+
 ````md
 ::: code-group
+
 ```vue [post/vitepress/extend/markdown-examples.vue]
 <template>
   <div>{{ text }}</div>
 </template>
 ```
+
 :::
 ````
 
 **结果展示**
 
 ::: code-group
+
 ```vue [post/vitepress/extend/markdown-examples.vue]
 <template>
   <div>{{ text }}</div>
 </template>
 ```
-:::
 
+:::
 
 ## 其他用法
 
-### md文件嵌套
+### md 文件嵌套
+
 可以使用 `<!--@include: markdown文件路径-->`，在一个 markdown 文件中嵌套另一个 markdown 文件的内容，`markdown文件路径` 可以是相对路径，也可以是 ` @/` 开头的以根目录为起点的路径
 
 当前引入的示例文件所处位置
@@ -585,16 +619,16 @@ yarn -v
 ```md
 .
 ├─ docs
-│  └─ post
-│     └─vitepress
-│        └─ extend
-│           └─ markdown-examples.md        <-- 当前文档位置
-│           └─ markdown-examples-demo.md   <-- 当前嵌套的markdown文件位置
-│ 
+│ └─ post
+│ └─vitepress
+│ └─ extend
+│ └─ markdown-examples.md <-- 当前文档位置
+│ └─ markdown-examples-demo.md <-- 当前嵌套的 markdown 文件位置
+│
 └─ package.json
 ```
-**嵌套语法**
 
+**嵌套语法**
 
 ```md
 <!---@include: ./markdown-examples-demo.md-->
@@ -603,8 +637,6 @@ yarn -v
 **嵌套结果**
 
 <!--@include: ./markdown-examples-demo.md-->
-
-
 
 ### 数学方程
 
@@ -615,22 +647,25 @@ pnpm add -D markdown-it-mathjax3
 ```
 
 ::: code-group
+
 ```ts [.vitepress/config.ts]
 export default {
   markdown: {
-    math: true
-  }
-}
+    math: true,
+  },
+};
 ```
+
 :::
 
 ### 高级配置
 
->查看 `vitepress` 中 [markdown 可配置的字段](https://github.com/vuejs/vitepress/blob/main/src/node/markdown/markdown.ts)
+> 查看 `vitepress` 中 [markdown 可配置的字段](https://github.com/vuejs/vitepress/blob/main/src/node/markdown/markdown.ts)
 
 在配置文件中设置 `codeTransformers` 来避免 `markdown-it` 渲染我们不想渲染的某些代码，或者使用 `config` 来对 markdown 中的内容进行替换或者批量处理。下面代码仅做演示使用，可自行修改。
 
 ::: code-group
+
 ```ts [.vitepress/config.ts]
 // https://shiki-zh-docs.vercel.app/packages/vitepress
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash'
@@ -654,7 +689,7 @@ export default {
         // 标题时间和文字统计组件(<weiz-title-meta />)插入h1标题下
         md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
           let htmlResult = slf.renderToken(tokens, idx, options);
-          if (tokens[idx].tag === 'h1') htmlResult += `<weiz-title-meta />`; 
+          if (tokens[idx].tag === 'h1') htmlResult += `<weiz-title-meta />`;
           return htmlResult;
         }
         // 内容批量替换
@@ -672,10 +707,8 @@ export default {
   }
 }
 ```
+
 :::
-
-
-
 
 <style lang="scss" scoped>
 img {

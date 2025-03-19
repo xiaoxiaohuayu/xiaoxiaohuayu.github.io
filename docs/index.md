@@ -1,14 +1,14 @@
 ---
 layout: weiz-home
 layoutClass: home
-title: 唯知笔记
-titleTemplate: 唯知笔记
+title: 桦鱼笔记
+titleTemplate: 桦鱼笔记
 
 about:
-  title: 唯知笔记
-  logo: https://www.helloimg.com/i/2025/01/04/6778a918882f8.png
+  title: 桦鱼笔记
+  logo: https://avatars.githubusercontent.com/u/30976418?v=4
   desc: 学习 记录 分享
-  tagline: 知之为知之，不知为不知
+  tagline: 小作坊工程师🧑‍💻
   links:
     - title: 前端笔记
       iconName: weiz-icon-web white
@@ -34,4 +34,3 @@ post:
     url: app/network/clash-verge
     abstract: 文章介绍了Clash Verge的下载、配置和使用方法。Clash Verge是一个基于Clash Meta内核的GUI代理工具，支持多种操作系统和代理协议
 ---
-
