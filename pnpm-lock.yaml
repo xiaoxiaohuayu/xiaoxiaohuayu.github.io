@@ -42,7 +42,7 @@ importers:
       '@unocss/preset-icons':
         specifier: 66.1.0-beta.6
         version: 66.1.0-beta.6
-      '@unocss/preset-uno':
+      '@unocss/preset-wind3':
         specifier: 66.1.0-beta.6
         version: 66.1.0-beta.6
       autoprefixer:
