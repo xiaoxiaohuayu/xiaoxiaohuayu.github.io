@@ -13,7 +13,7 @@ import WHome from "./components/WHome/index.vue"; // 首页
 import WTag from "./components/WTag/index.vue"; // 标签页
 import WPost from "./components/WPost/index.vue"; // 所有文章页
 import WDocTitleMeta from "./components/WDocTitleMeta.vue"; //文章顶部
-
+import WPdfViewer from "./components/WPdfViewer.vue"; // PDF简历
 import TwoslashFloatingVue from "@shikijs/vitepress-twoslash/client"; // type类型悬浮框
 import "@shikijs/vitepress-twoslash/style.css";
 import busuanzi from "busuanzi.pure.js"; // 卜算子统计插件
@@ -44,6 +44,7 @@ export default {
     app.component("weiz-post", WPost);
     app.component("weiz-title-meta", WDocTitleMeta);
     app.component("weiz-loading", WLoading);
+    app.component("weiz-pdf-viewer", WPdfViewer);
     app.use(TwoslashFloatingVue);
     app.use(ElementPlus);
     if (inBrowser) {

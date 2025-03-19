@@ -1,15 +1,15 @@
 <template>
   <div class="load">
     <div class="load-main">
-      <div class="l-1 loading-text">w</div>
-      <div class="l-2 loading-text loading-color2">e</div>
-      <div class="l-3 loading-text">i</div>
-      <div class="l-4 loading-text loading-color2">z</div>
+      <div class="l-1 loading-text">x</div>
+      <div class="l-2 loading-text loading-color2">i</div>
+      <div class="l-3 loading-text">a</div>
+      <div class="l-4 loading-text loading-color2">o</div>
       <div class="l-5 loading-text loading-color3">.</div>
-      <div class="l-6 loading-text">.</div>
-      <div class="l-7 loading-text loading-color2">.</div>
-      <div class="l-8 loading-text loading-color3">w</div>
-      <div class="l-9 loading-text">z</div>
+      <div class="l-6 loading-text">h</div>
+      <div class="l-7 loading-text loading-color2">u</div>
+      <div class="l-8 loading-text loading-color3">a</div>
+      <div class="l-9 loading-text">y</div>
       <div class="l-10 loading-text loading-color2">.</div>
       <div class="l-11 loading-text loading-color3">.</div>
       <div class="l-12 loading-text">.</div>
@@ -30,17 +30,18 @@
   .loading-text {
     letter-spacing: 1px;
     font-weight: 800;
-    font-family: "Chalkboard", "Arial", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Chalkboard", "Arial", -apple-system, BlinkMacSystemFont,
+      "Helvetica Neue", Helvetica, sans-serif;
     color: var(--weiz-primary-color);
     animation-name: loading;
     animation-duration: 1.2s;
     animation-iteration-count: infinite;
     animation-direction: linear;
     &.loading-color2 {
-      color: #24E5C7;
+      color: #24e5c7;
     }
     &.loading-color3 {
-      color: #FF8446;
+      color: #ff8446;
     }
   }
 
@@ -60,10 +61,10 @@
     animation-delay: 0.3005s;
   }
   .l-6 {
-    animation-delay: 0.4320s;
+    animation-delay: 0.432s;
   }
   .l-7 {
-    animation-delay: 0.5680s;
+    animation-delay: 0.568s;
   }
   .l-8 {
     animation-delay: 0.6995s;

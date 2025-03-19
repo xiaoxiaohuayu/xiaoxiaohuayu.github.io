@@ -95,10 +95,10 @@ export default async ({ mode }) => {
       // 社交按钮
       // socialLinks: [{ icon: 'github', link: 'https://github.com/weizwz/' }],
       //编辑本页
-      editLink: {
-        pattern: "https://github.com/weizwz/note/edit/main/docs/:path", // 改成自己的仓库
-        text: "在GitHub编辑本页",
-      },
+      // editLink: {
+      //   pattern: "https://github.com/weizwz/note/edit/main/docs/:path", // 改成自己的仓库
+      //   text: "在GitHub编辑本页",
+      // },
       // 相关文字和提示修改
       returnToTopLabel: "回到顶部", // 返回顶部文字修改(移动端)
       sidebarMenuLabel: "菜单", // 侧边菜单
@@ -131,7 +131,7 @@ export default async ({ mode }) => {
     },
     // 站点地图
     sitemap: {
-      hostname: "https://note.weizwz.com",
+      hostname: "https://www.baidu.com",
     },
     vite: {
       plugins: [MarkdownPreview(), UnoCSS()],

@@ -2,11 +2,13 @@
   <div id="about">
     <div class="container">
       <el-row class="container-row" :gutter="24">
-        <el-col :xs="24" :sm="12" :md="12" class="container-left">
-          <div class="title">
-            <h1 class="about-title">
-              <span>{{ aboutData.title }}</span>
-            </h1>
+        <el-col :xs="24" :sm="12" :md="12" class="container-left pos-relative">
+          <div class="flex">
+            <div class="title">
+              <h1 class="about-title">
+                <span>{{ aboutData.title }}</span>
+              </h1>
+            </div>
           </div>
           <div class="info-wrapper">
             <div class="avatar-wrapper">
@@ -79,6 +81,7 @@
         >
           <div
             v-if="item.type && item.type === 'busuanzi'"
+            data-if="item.type && item.type === 'busuanzi'"
             class="post-card statistic"
           >
             <div class="post-container">
@@ -164,7 +167,7 @@ const cardLength = ref(0);
 const lookHref = ref(withBase("editor/vscode/vscode-siliconflow"));
 
 const postMerge = () => {
-  const postLength = 6;
+  const postLength = 0;
   const fmLength = fm.value.post ? fm.value.post.length : 0;
   let postLoadingData: HomePost[] = [];
   postLoadingData =
@@ -205,17 +208,17 @@ const postMerge = () => {
           return mdPosts;
         })();
   // 第4张卡片插入卜算子统计
-  postLoadingData.splice(3, 0, {
-    title: "统计访问量",
-    type: "busuanzi",
-    abstract: "统计访问量",
-  });
-  // 第8张卡片插入卜算子统计
-  postLoadingData.splice(7, 0, {
-    title: "更多文章",
-    type: "more",
-    abstract: "更多文章导航",
-  });
+  // postLoadingData.splice(3, 0, {
+  //   title: "统计访问量",
+  //   type: "busuanzi",
+  //   abstract: "统计访问量",
+  // });
+  // // 第8张卡片插入卜算子统计
+  // postLoadingData.splice(7, 0, {
+  //   title: "更多文章",
+  //   type: "more",
+  //   abstract: "更多文章导航",
+  // });
   postData.value = postLoadingData;
   cardLength.value = postLoadingData.length;
 };
@@ -253,6 +256,11 @@ const getPV = () => {
     }
   }, 500);
 };
+
+// const goResume = () => {
+//   //当前页面跳转
+//   window.location.href = "/resume";
+// };
 
 onMounted(() => {
   postMerge();
