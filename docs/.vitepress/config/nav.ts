@@ -44,6 +44,7 @@ export const nav: DefaultTheme.Config["nav"] = [
           { text: "TS 基础", link: "/ts/basic/ts-normal-summary" },
           { text: "Nodejs 相关", link: "/nodejs/apply/pnpm-setting" },
           { text: "Nginx 代理", link: "/nginx/nginx-web-cross-domain" },
+          { text: "性能", link: "/performance/memo-of-an-typical-optimization" },
         ],
       },
       {
