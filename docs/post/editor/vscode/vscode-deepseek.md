@@ -24,7 +24,7 @@ DeepSeek V3 是一个拥有 6710 亿参数的专家混合（MoE）语言模型�
 
 VSCode 插件商店搜索 `Continue`，第一个下载就是
 
-![image-20250103154346320.png](https://www.helloimg.com/i/2025/01/03/677797a8847e0.png)
+![image-20250103154346320.png](http://sto1fqpd6.hn-bkt.clouddn.com/677797a8847e0.png)
 
 > [!NOTE] 关于 Cline插件 和 Continue插件 的区别：
 >
@@ -35,11 +35,11 @@ VSCode 插件商店搜索 `Continue`，第一个下载就是
 
 去 deepseek 官网 [https://www.deepseek.com/](https://www.deepseek.com/) ，选择 `接入api`，然后注册账号
 
-![image-20250103154617154.png](https://www.helloimg.com/i/2025/01/03/677797a88d2b2.png)
+![image-20250103154617154.png](http://sto1fqpd6.hn-bkt.clouddn.com/677797a88d2b2.png)
 
 注册完毕后，选择创建 `API Key`
 
-![image-20250103154714100.png](https://www.helloimg.com/i/2025/01/03/677797a8ca2ee.png)
+![image-20250103154714100.png](http://sto1fqpd6.hn-bkt.clouddn.com/677797a8ca2ee.png)
 
 创建成功后，**记得复制这个 key 值，保存在其他地方，因为后面修改配置要用到，并且它只会出现 1 次**。
 
@@ -74,11 +74,11 @@ VSCode 插件商店搜索 `Continue`，第一个下载就是
 ```
 
 
-![image-20250103155123230.png](https://www.helloimg.com/i/2025/01/03/677797a8b35af.png)
+![image-20250103155123230.png](http://sto1fqpd6.hn-bkt.clouddn.com/677797a8b35af.png)
 
 修改完成后，保存，然后选择面板左侧我们新添加的模型，点击对话开始试用。
 
-![image-20250103155405192.png](https://www.helloimg.com/i/2025/01/03/677797a84f83b.png)
+![image-20250103155405192.png](http://sto1fqpd6.hn-bkt.clouddn.com/677797a84f83b.png)
 
 ## 常用操作
 
@@ -90,7 +90,7 @@ VSCode 插件商店搜索 `Continue`，第一个下载就是
 
 文件全路径复制：右键文件或文件夹，选择 `复制路径` 即可
 
-![image-20250117102928708.png](https://www.helloimg.com/i/2025/01/17/6789cc5c70ecb.png)
+![image-20250117102928708.png](http://sto1fqpd6.hn-bkt.clouddn.com/6789cc5c70ecb.png)
 
 ### 2. 对已打开的文件内容提问或者优化
 
@@ -100,7 +100,7 @@ VSCode 插件商店搜索 `Continue`，第一个下载就是
 
 当有大范围的修改，不止一个代码片段时，如果你想取消可以按下 `ctrl+z` / `command+z`，接受修改的话只能一个一个点 `Accept`
 
-![image-20250117103651091.png](https://www.helloimg.com/i/2025/01/17/6789cc5abb533.png)
+![image-20250117103651091.png](http://sto1fqpd6.hn-bkt.clouddn.com/6789cc5abb533.png)
 
 ### 3. tab 键自动补全代码
 
@@ -108,16 +108,16 @@ VSCode 插件商店搜索 `Continue`，第一个下载就是
 
 在编码或者书写时，会自动弹出补全的内容，如果你想使用它，直接按下 `tab` 键即可，或者点击提示按钮操作
 
-![image-20250117105641391.png](https://www.helloimg.com/i/2025/01/17/6789cc5a2355d.png)
+![image-20250117105641391.png](http://sto1fqpd6.hn-bkt.clouddn.com/6789cc5a2355d.png)
 
 ### 4. 输入注释，让它生成代码
 
 输入注释后，一般需要等1-3s，它的补全内容才会出来，有时候只会出来部分代码，这时候按下 `tab` 键即可，后面它会继续补全
 
-![image-20250117110400110.png](https://www.helloimg.com/i/2025/01/17/6789cc5b813a6.png)
+![image-20250117110400110.png](http://sto1fqpd6.hn-bkt.clouddn.com/6789cc5b813a6.png)
 
 如果补全的内容，有错误。可以鼠标放置在错误的地方，会提示 `快速修复`，点击之后，会弹出 `Ask Continue`，点击之后当前错误会自动粘贴到对话框，并自动回复给出 `解决方案/修改代码`。
 
 鼠标放置在它给出的 `代码片段`上，右上角有三个按钮，第一个自动应用到出错的文件内容，第二个是插入当前代码到编辑器光标处，第三个是`复制`。这里建议复制代码，手动替换原来错误代码。第一个选项将在整个文件内搜索并修改，比较耗时，第二个是插入代码的位置是在光标处，不一定在当前的错误代码处。
 
-![image-20250117111043009.png](https://www.helloimg.com/i/2025/01/17/6789cc5daa329.png)
+![image-20250117111043009.png](http://sto1fqpd6.hn-bkt.clouddn.com/6789cc5daa329.png)

@@ -21,7 +21,7 @@ tags:
 
 [官网地址](https://lbsyun.baidu.com/)，然后在 `应用管理` -> `我的应用` 里，`创建应用`，创建好后复制 `AK`
 
-![20231228_204324.png](https://www.helloimg.com/i/2025/01/02/6776899b7a157.png)
+![20231228_204324.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776899b7a157.png)
 
 ### 2. 在根目录的 `index.html` 里引入百度地图
 
@@ -219,7 +219,7 @@ app.config.globalProperties.$echarts = echarts
 <style lang="scss" scoped></style>
 ```
 
-![20231228_210322.png](https://www.helloimg.com/i/2025/01/02/677688dcd542f.png)
+![20231228_210322.png](http://sto1fqpd6.hn-bkt.clouddn.com/677688dcd542f.png)
 
 ### 2. 结合百度地图
 
@@ -310,4 +310,4 @@ app.config.globalProperties.$echarts = echarts
 <style lang="scss" scoped></style>
 ```
 
-![20231228_210912.png](https://www.helloimg.com/i/2025/01/02/677688dd37e69.png)
+![20231228_210912.png](http://sto1fqpd6.hn-bkt.clouddn.com/677688dd37e69.png)

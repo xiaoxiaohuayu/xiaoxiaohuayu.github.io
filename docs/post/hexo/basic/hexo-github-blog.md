@@ -29,20 +29,20 @@ tags:
 
 ### 1. 新建仓库
 
-![image](https://www.helloimg.com/i/2024/12/30/6772bd7b29074.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772bd7b29074.png)
 
 ### 2. 填写地址
 
 仓库名称为 `<用户名>.github.io`，勾上 `Add a README file`。
-![image](https://www.helloimg.com/i/2024/12/30/6772bd7c72993.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772bd7c72993.png)
 
 > 提示，用户名为你自己的 `github` 帐号，见下图。
-> ![image](https://www.helloimg.com/i/2024/12/30/6772bd7d7258f.png)
+> ![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772bd7d7258f.png)
 
 ### 3. 访问
 
 访问地址 `https://<用户名>.github.io`，如图则说明创建成功。
-![image](https://www.helloimg.com/i/2024/12/30/6772bd7b879ac.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772bd7b879ac.png)
 
 ## 三、本地安装 `Hexo`，生成博客模板
 
@@ -124,7 +124,7 @@ INFO  Have a nice day
 ```
 
 浏览器打开 `http://localhost:4000/` 预览，如下图
-![image](https://www.helloimg.com/i/2024/12/30/6772bd8749989.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772bd8749989.png)
 
 ## 四、提交本地博客至 `github` 仓库
 
@@ -148,7 +148,7 @@ deploy:
 ```
 
 > 提示，远程仓库地址选择 `ssh` 的，如下图，`HTTPS` 的貌似还需要 `token`（主要是我加完token也没成功。。。）
-> ![image](https://www.helloimg.com/i/2024/12/30/6772bd7d6c793.png)
+> ![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772bd7d6c793.png)
 
 部署到GitHub
 
@@ -157,7 +157,7 @@ hexo g -d
 ```
 
 执行成功后，查看 `github` 代码仓是否更新，查看博客地址页面。
-![image](https://www.helloimg.com/i/2024/12/30/6772bd88e5c3c.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772bd88e5c3c.png)
 
 ### 2. 直接将 `public` 目录中的文件和目录推送至 `gitHub` 仓库
 
@@ -168,7 +168,7 @@ hexo g -d
 
 在 `github` 上搜索 `Hexo theme`，选择自己喜欢的主题，最好选择有详细文档的，这样安装比较方便。以我选择的 [hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly) 为例，具有 `Demo` 演示和详情的文档说明，只需按照文档来安装和配置即可。
 参照 [安装文档](https://butterfly.js.org/posts/21cfbf15/) 进行安装配置，基础效果如下
-![image](https://www.helloimg.com/i/2024/12/30/6772bd82d4e00.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772bd82d4e00.png)
 按照文档进行其他配置，最后推送至远端仓库即可。
 
 **然后开始写作欣赏你自己的博客吧！**

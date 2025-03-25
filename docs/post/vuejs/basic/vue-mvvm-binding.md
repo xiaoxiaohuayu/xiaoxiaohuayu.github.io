@@ -31,7 +31,7 @@ tags:
    > [!NOTE] 提示
    > 值得注意的是，解析器在解析DOM的时候，是用的 `DocumentFragment`，它是一个文档片段接口，表示一个没有父对象的最小文档对象，它的变化不会触发DOM树的重新渲染，性能优于直接操作DOM树。
 
-![image](https://www.helloimg.com/i/2024/12/31/6773c01d22b97.jpg)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6773c01d22b97.jpg)
 
 #### `Dep` 如何收集 `Watcher`
 

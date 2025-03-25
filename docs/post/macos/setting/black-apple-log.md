@@ -20,19 +20,19 @@ tags:
 打开系统偏好设置，找到键盘，然后点击键盘选项，选择修饰键，
 将左右 Control 键改为 command 键，将左右 Option 键改为 Command 键。
 
-![20240129_173445.png](https://www.helloimg.com/i/2025/01/02/6776ae9e96f13.png)
+![20240129_173445.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9e96f13.png)
 
 ## 开机报错
 
 您的电脑因出现问题而重新启动，每次开机都会有这个错误。
 
-![20240129_174245.png](https://www.helloimg.com/i/2025/01/02/6776aea03ab97.png)
+![20240129_174245.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776aea03ab97.png)
 
 网上查询，有三种解决办法：
 
 1. 清除 nvram.config，先在 efi 里找，找到的话删除，不行的话，需要清理 BIOS 里的，可以刷 BIOS 或者 复位 BIOS，即拔电后通过跳线、放电解决。我最终是通过这个办法解决了。
 2. 在 mac 应用程序里，找到控制台，然后诊断管理，搜索 Sleep Wake Failure，找到后删除即可，但我的里面没有找见。
-   ![20240129_175138.png](https://www.helloimg.com/i/2025/01/02/6776ae9fdf256.png)
+   ![20240129_175138.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9fdf256.png)
 3. 删除 `EFI/clover/drivers64UEFI` 目录下的 `Emu\*` 开头的文件后，再次重启，烦人的提示就可以去除。但是我试了下，进入 mac 后系统直接卡死。
 
 相关问题： https://bbs.pcbeta.com/viewthread-1788236-1-1.html，https://bbs.pcbeta.com/viewthread-1652538-1-1.html
@@ -57,11 +57,11 @@ tags:
 固态的 macos 里有 esp 引导区，为了相互不影响，在机械盘也开辟出一个 esp 引导区。
 进入 PE 系统后，打开 DiskGenius 分区工具，先转化机械盘分区表类型为 MBR。
 
-![20240129_171858.png](https://www.helloimg.com/i/2025/01/02/6776ae9af280f.png)
+![20240129_171858.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9af280f.png)
 
 然后在机械盘新建一个分区，大小 200G，用来当系统盘，格式化为 NTFS，然后空出 300M 来当做 esp 引导区。怎么空 300m 空间，就是你在建系统分区的时候，可以选择磁盘的起始扇位和结束扇位，如果你从磁盘末尾开辟系统盘，那你的起始扇位就不要紧挨着前面分区的结束扇位，而是留出 300m 的空间即可。
 
-![20240129_171249.png](https://www.helloimg.com/i/2025/01/02/6776ae9ae4a24.png)
+![20240129_171249.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9ae4a24.png)
 
 在分出未分配空间的那个磁盘右击，选择 建立 ESP 分区，大小设置为 300m, 然后格式化为 FAT32。
 
@@ -69,7 +69,7 @@ tags:
 
 打开 windows 安装器，选择镜像，找到你 U 盘里的 iso 镜像，打开；选择引导驱动器，就是刚才新建的 ESP 分区；选择安装磁盘的位置，选择新建的系统分区。然后点击开始安装，等待重启。
 
-![20240129_172424.png](https://www.helloimg.com/i/2025/01/02/6776ae9d5b41f.png)
+![20240129_172424.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9d5b41f.png)
 
 ### 4. 进入系统后，连接蓝牙
 
@@ -79,19 +79,19 @@ tags:
 
 重启后，发现系统直接进入 windows 了，所以我们需要修改引导，让系统默认进入 MacOS 的引导区。注意，此时是在 windows 系统里操作。这里我们要使用一个工具 EasyUEFI。
 
-![20240129_172731.png](https://www.helloimg.com/i/2025/01/02/6776ae9d50a3d.png)
+![20240129_172731.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9d50a3d.png)
 
 打开 EasyUEFI，选择 `管理 EFI 启动项`，进入后删除掉里面的 macos，然后新建启动项，描述为 macos，
 
-![20240129_172823.png](https://www.helloimg.com/i/2025/01/02/6776ae9e6a696.png)
+![20240129_172823.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9e6a696.png)
 
 选择 macos 分区的 esp 引导区里的 EFI 文件夹，继续进入 BOOT 文件夹，选择 bootx64.efi，点击保存。
 
-![20240129_172907.png](https://www.helloimg.com/i/2025/01/02/6776ae9e1c15f.png)
+![20240129_172907.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9e1c15f.png)
 
 然后移动刚新建的引导，放在第一位，关闭软件，然后重启。
 
-![20240129_172949.png](https://www.helloimg.com/i/2025/01/02/6776ae9e0d116.png)
+![20240129_172949.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9e0d116.png)
 
 电脑再次启动后，发现已进入 macos 的引导，第一项为 macos，第二项为 windows，选择 macos 进入系统。
 
@@ -100,16 +100,16 @@ tags:
 clover 是一个开源的 EFI 引导加载器，可以让 macos 启动更加快速，这里我们要让 clover 自动选择 mac 系统进入。
 在 mac 系统里操作，我们需要这个软件 Clover Configurator。打开软件，挂载分区，然后打开分区。
 
-![20240129_164214.png](https://www.helloimg.com/i/2025/01/02/6776ae9bd918c.png)
+![20240129_164214.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9bd918c.png)
 
 找到 `EFI > CLOVER > config.plist` 这个文件，右键选择 Clover Configurator 打开。
 
-![20240129_164439.png](https://www.helloimg.com/i/2025/01/02/6776ae9b3d470.png)
+![20240129_164439.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9b3d470.png)
 
 打开左侧，引导参数，然后修改默认引导卷名为我们 mac 盘里 esp 分区的名称（注意，这个名称不是我们在访达里看到的名称，而是在选择挂载分区的那里看到的，比如我的是 EFI_MAC on macos，那这个名称就是 on 之后的 macos），修改等待时间，建议 5/3 秒。然后重启电脑，发现 clover 已经可以自动为我们选择 macos 系统进入了。
 
-![20240129_164657.png](https://www.helloimg.com/i/2025/01/02/6776ae9ae0317.png)
+![20240129_164657.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9ae0317.png)
 
 进入 macos 后，再查看蓝牙，已正常
 
-![20240129_165400.png](https://www.helloimg.com/i/2025/01/02/6776ae9aca74d.png)
+![20240129_165400.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776ae9aca74d.png)

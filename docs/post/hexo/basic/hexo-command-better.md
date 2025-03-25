@@ -79,25 +79,25 @@ $ npm update hexo-theme-butterfly
 
 ### 首页 `Banner` 和推荐
 
-![image](https://www.helloimg.com/i/2024/12/30/6772c27e978a8.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772c27e978a8.png)
 
 使用了插件 `hexo-butterfly-recommend`，详情查看我的博客 [hexo-butterfly-recommend 使用说明](/hexo/extend/hexo-butterfly-recommend)
 
 ### 导航栏控制中心
 
-![image](https://www.helloimg.com/i/2024/12/31/6772c8ef052f0.gif)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772c8ef052f0.gif)
 
 使用了插件 `hexo-butterfly-navctrl`，详情查看我的博客 [hexo-butterfly-navctrl 使用说明](/hexo/extend/hexo-butterfly-navctrl)
 
 ### 页脚徽标
 
-![image](https://www.helloimg.com/i/2024/12/31/6772cd0feb868.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772cd0feb868.png)
 
 修改 `_config.butterfly.yml` 中的配置项 `footer`，详情查看我的博客 [Github项目徽标](/css/apply/icon-label-shields) 最后的 `实际应用` -> `博客页脚`
 
 ### 图片预加载动画
 
-![image](https://www.helloimg.com/i/2024/11/23/67419a987ba2f.gif)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/67419a987ba2f.gif)
 
 修改 `_config.butterfly.yml` 中的配置项 `lazyload`:
 
@@ -115,7 +115,7 @@ lazyload:
 
 ### 使用 `vscode` 预览博客时显示本地图片
 
-![images](https://www.helloimg.com/i/2024/12/31/6773ad13d47de.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/6773ad13d47de.png)
 
 本地博客中的本地图片地址一般为 `/img/xxx`，省略了本地目录的 `soucre` 文件夹，博客部署时会把所有文件夹都部署在根目录（本地图片 `/source/img/xxx`，服务端 `/img/xxx`），显示正常，但是本地预览则找不到此路径，所以预览时会显示不出来。
 如果你使用vscode的话，可以推荐此方案：

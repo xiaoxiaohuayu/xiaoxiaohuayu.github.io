@@ -208,5 +208,5 @@ setToken(token: string) {
 }
 ```
 ## 效果展示
-![image](https://www.helloimg.com/i/2025/01/02/677669240451a.gif)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677669240451a.gif)
 

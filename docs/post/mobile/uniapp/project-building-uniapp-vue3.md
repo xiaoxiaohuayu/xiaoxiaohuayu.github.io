@@ -42,20 +42,20 @@ tags:
 
 `uni-create-view` 安装后，需要修改配置，进入 `文件` -> `首选项` -> `设置`，按以下选项修改即可
 
-![20240105_184317.png](https://www.helloimg.com/i/2025/01/02/67769f72439ff.png)
+![20240105_184317.png](http://sto1fqpd6.hn-bkt.clouddn.com/67769f72439ff.png)
 
 `uni-create-view` 使用方法：
 在 `src/pages` 下右键，选择 `新建uni-app页面`，弹出输入框，输入 `文件夹名称 页面名称`，然后回车
 
-![20240105_192013.png](https://www.helloimg.com/i/2025/01/02/67769f71b688c.png)
+![20240105_192013.png](http://sto1fqpd6.hn-bkt.clouddn.com/67769f71b688c.png)
 
 生成如下目录文件
 
-![20240105_192151.png](https://www.helloimg.com/i/2025/01/02/67769f71e6356.png)
+![20240105_192151.png](http://sto1fqpd6.hn-bkt.clouddn.com/67769f71e6356.png)
 
 并且在 `src/pages.json` 目录下，已将新界面配置进去
 
-![20240105_192322.png](https://www.helloimg.com/i/2025/01/02/67769f7225d27.png)
+![20240105_192322.png](http://sto1fqpd6.hn-bkt.clouddn.com/67769f7225d27.png)
 
 ### `vscode` 项目配置
 
@@ -105,7 +105,7 @@ tags:
 
 然后，在空白vue文件中，输入vue3，选择此模板，即可快速生成代码
 
-![20240105_194523.png](https://www.helloimg.com/i/2025/01/02/67769f71cd7f5.png)
+![20240105_194523.png](http://sto1fqpd6.hn-bkt.clouddn.com/67769f71cd7f5.png)
 
 ## 项目初始化
 
@@ -655,7 +655,7 @@ export const getUserInfoAPI = (data: any) => {
 
 效果如下，可以看到已经调用成功：
 
-![20240106_002959.png](https://www.helloimg.com/i/2025/01/02/67769f72497f5.png)
+![20240106_002959.png](http://sto1fqpd6.hn-bkt.clouddn.com/67769f72497f5.png)
 
 **如果调用被拦截的话，请检查微信小程序里的项目设置，然后选中 `不检验合法域名、web-view(业务域名)、TLS版本以及HTTPS证书` 选项**
 

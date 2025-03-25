@@ -240,7 +240,7 @@ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 
 打开 `终端`，点击左上角 `终端` -> `偏好设置`-> `描述文件`，选择主题后 -> `字体`，选择 `FiraCode Nerd Font` 后保存
 
-![20240126_181602.png](https://www.helloimg.com/i/2025/01/02/6776a52ddb54d.png)
+![20240126_181602.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776a52ddb54d.png)
 
 如果其他 IDEA 有使用到终端的话，建议也设置这种图标字体
 
@@ -258,4 +258,4 @@ eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/markbull
 
 关闭终端后，重新打开，即可看到你的主题已生效！
 
-![20240126_182339.png](https://www.helloimg.com/i/2025/01/02/6776a52ac2ebf.png)
+![20240126_182339.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776a52ac2ebf.png)

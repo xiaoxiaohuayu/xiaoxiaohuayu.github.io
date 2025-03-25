@@ -16,7 +16,7 @@ tags:
 ## 效果
 
 <!-- ![image](/img/blog/20231218_143809.png) -->
-![20231218_143809.png](https://www.helloimg.com/i/2025/01/02/67768685e62d0.png)
+![20231218_143809.png](http://sto1fqpd6.hn-bkt.clouddn.com/67768685e62d0.png)
 
 ## 实现
 
@@ -24,22 +24,22 @@ tags:
 
 直接在 `Microsoft Store` 中安装即可
 
-![20231218_144200.png](https://www.helloimg.com/i/2025/01/02/67768686ea222.png)
+![20231218_144200.png](http://sto1fqpd6.hn-bkt.clouddn.com/67768686ea222.png)
 
 打开 `Windows Terminal`，依次打开 `设置` -> `启动`，选择默认终端为 `Windows Terminal`，然后保存
 
-![20231218_144723.png](https://www.helloimg.com/i/2025/01/02/677686862651b.png)
+![20231218_144723.png](http://sto1fqpd6.hn-bkt.clouddn.com/677686862651b.png)
 
 ### 2. 安装 `Powershell`，非强迫症略过这一步
 
 因为不安装，每次打开 `Windows Terminal`，总提示 `Install the Latest Power sh for new features and improvement shttps://aka.ms/pswindows`。
 安装也很简单，直接在 `Microsoft Store` 中安装即可
 
-![20231218_145750.png](https://www.helloimg.com/i/2025/01/02/67768688d33dd.png)
+![20231218_145750.png](http://sto1fqpd6.hn-bkt.clouddn.com/67768688d33dd.png)
 
 打开 `Windows Terminal`，依次打开 `设置` -> `默认配置文件`，选择 `Powersh`，然后保存，后续打开再不会有此提示了
 
-![20231218_145937.png](https://www.helloimg.com/i/2025/01/02/67768685efcdb.png)
+![20231218_145937.png](http://sto1fqpd6.hn-bkt.clouddn.com/67768685efcdb.png)
 
 ### 3. 安装 `Nerd Fonts`
 
@@ -53,13 +53,13 @@ tags:
 
 打开 `Windows Terminal`，依次打开 `设置` -> `Powersh`-> `外观` -> `字体`，选择 `FiraCode Nerd Font` 后保存
 
-![20231218_152523.png](https://www.helloimg.com/i/2025/01/02/677686897588b.png)
+![20231218_152523.png](http://sto1fqpd6.hn-bkt.clouddn.com/677686897588b.png)
 
 ### 4. 安装 `oh-my-posh`
 
 同上，直接在 `Microsoft Store` 中安装
 
-![20231218_150152.png](https://www.helloimg.com/i/2025/01/02/67768686bcb0f.png)
+![20231218_150152.png](http://sto1fqpd6.hn-bkt.clouddn.com/67768686bcb0f.png)
 
 安装好后，在命令行里执行 `$profile`，查看 `Windows Terminal` 的配置目录
 
@@ -98,7 +98,7 @@ oh-my-posh init pwsh --config 'D:/data/Powersh/amro.omp.json' | Invoke-Expressio
 
 如果其他编辑器中有使用到cmd，那么也需要设置你的编辑器字体为 `FiraCode Nerd Font`，否则命令行会出现乱码，比如 vscode
 
-![20231218_153358.png](https://www.helloimg.com/i/2025/01/02/67768689c5163.png)
+![20231218_153358.png](http://sto1fqpd6.hn-bkt.clouddn.com/67768689c5163.png)
 
 ## 其他
 
@@ -107,7 +107,7 @@ oh-my-posh init pwsh --config 'D:/data/Powersh/amro.omp.json' | Invoke-Expressio
 打开 https://ohmyposh.dev/docs/themes ，复制你喜欢的主题名称
 然后将 https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json 中的末尾 `schema.json` 替换为 `主题名称.omp.json`，`ctrl`+`s` 即可快速保存到本地。比如我的当前主题 `markbull`：
 
-![20231218_161649.png](https://www.helloimg.com/i/2025/01/02/6776868973319.png)
+![20231218_161649.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776868973319.png)
 
 对应的文件地址为：
 https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/markbull.omp.json
@@ -116,6 +116,6 @@ https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/markbull
 
 `oh-my-posh` 主题中有些主题并不使用图标字体，整体也比较简洁
 
-![20231218_162541.png](https://www.helloimg.com/i/2025/01/02/6776868a79733.png)
+![20231218_162541.png](http://sto1fqpd6.hn-bkt.clouddn.com/6776868a79733.png)
 
 如图中的 `zash` 主题 https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/zash.omp.json 。此外还有 `remk` 、`huvix` 等主题，您可以自行去 https://ohmyposh.dev/docs/themes 上查找。

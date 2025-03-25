@@ -37,7 +37,7 @@ export default defineConfig({
 npm i @types/node -D
 ```
 
-![image](https://www.helloimg.com/i/2025/01/02/677666eddca53.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677666eddca53.png)
 
 ### 2. 修改 `vite.config.ts`
 
@@ -75,7 +75,7 @@ export default defineConfig({
 import HelloWorld from '@/components/HelloWorld.vue'
 ```
 
-![image](https://www.helloimg.com/i/2025/01/02/677666ee0f857.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677666ee0f857.png)
 
 ## 配置环境变量
 

@@ -157,7 +157,7 @@ https://img.shields.io/chrome-web-store/users/dhdgffkkebhmkfjojejmpbldmpobfkfo?l
 
 GitHub下新建同名（和你GitHub的ID同名，比如我的 https://github.com/weizwz/weizwz ）项目，然后编辑 `README.md` 保存即可，刷新到你的主页就会自动展示README文档
 
-![image](https://www.helloimg.com/i/2024/12/31/6772cd113383e.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772cd113383e.png)
 
 部分代码展示，完整代码请查看 [GitHub-weizwz](https://github.com/weizwz/weizwz/blob/main/README.md?plain=1)
 
@@ -172,7 +172,7 @@ GitHub下新建同名（和你GitHub的ID同名，比如我的 https://github.co
 
 在项目的 `README.md` 里加入下载量/收藏量/依赖库等徽章
 
-![image](https://www.helloimg.com/i/2024/12/31/6772cd0f52fb8.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772cd0f52fb8.png)
 
 部分代码展示，完整代码请查看 [GitHub-vue](https://github.com/vuejs/vue/blob/main/README.md?plain=1)
 
@@ -193,7 +193,7 @@ GitHub下新建同名（和你GitHub的ID同名，比如我的 https://github.co
 
 基于`hexo-theme-butterfly`主题，查看 [Butterfly文档](https://butterfly.js.org/posts/4aa8abbe/#Footer-%E8%A8%AD%E7%BD%AE)
 
-![image](https://www.helloimg.com/i/2024/12/31/6772cd0feb868.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772cd0feb868.png)
 
 在 `custom_text` 字段里加入以下内容（省去了主题butterfly和腾讯云，因为自定义图标太长，直接代码不显示了，请自行添加）：
 

@@ -45,7 +45,7 @@ Vue CLI v5.0.8
 ```
 
 创建成功后，目录如下：
-![image](https://www.helloimg.com/i/2024/12/31/6773c4341985d.jpg)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6773c4341985d.jpg)
 
 ### 3. 修改多界面配置
 
@@ -95,7 +95,7 @@ npm run serve
 ```
 
 查看效果
-![image](https://www.helloimg.com/i/2024/12/31/6773c4335a528.gif)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6773c4335a528.gif)
 
 ### 5. 其他
 

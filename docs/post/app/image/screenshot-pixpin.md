@@ -25,33 +25,33 @@ tags:
 当前使用还存在一些小问题，不过值得期待
 
 <!-- ![images](/img/blog/20231129_162401.png) -->
-![image](https://www.helloimg.com/i/2025/01/02/6776827f9d877.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6776827f9d877.png)
 
 ### 2. 贴图
 
 很多时候需要切屏来查看浏览器与编辑器，有了贴图之后，再也不用切屏了
 选定窗口后，点击下方操作栏的`固定到屏幕`按钮，即可实现贴图
 
-![images](https://www.helloimg.com/i/2025/01/02/67768280896c6.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/67768280896c6.png)
 
 ### 3. 丰富的标注
 
 丰富的标注工具，包括序号、文字、箭头、线条、马赛克等，满足你的日常需求
 
-![images](https://www.helloimg.com/i/2025/01/02/677682834fd70.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677682834fd70.png)
 
 ### 4. 文本识别
 
 通过强大的文本识别算法，迅速准确地识别出图像上的文字
 贴图之后，可随意选择贴图中的文字，进行复制操作
 
-![images](https://www.helloimg.com/i/2025/01/02/67768281634ad.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/67768281634ad.png)
 
 ### 5. 截动图
 
 把屏幕的操作记录在动图上，录制的同时还可以同时使用标注工具
 选定窗口后，选择`gif截图`按钮，点击`开始`按钮即可录制，点击`停止`按钮，即可保存
 
-![images](https://www.helloimg.com/i/2025/01/02/677682807c1ef.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677682807c1ef.png)
 
 **更多细节功能，可自行体验**

@@ -21,13 +21,13 @@ tags:
 
 ## 2. 在GitHub上设置部署配置
 
-![20240912_265485.png](https://www.helloimg.com/i/2025/01/03/67775081f41bc.png)
+![20240912_265485.png](http://sto1fqpd6.hn-bkt.clouddn.com/67775081f41bc.png)
 
 ## 3. 到你的项目根目录创建工作流文件
 
 根目录下新建 `.github` 文件夹，然后在其目录下新建 `workflows` 文件夹，在里面新建 `main.yml` 。
 
-![20240912_265486.png](https://www.helloimg.com/i/2025/01/03/6777507fed336.png)
+![20240912_265486.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777507fed336.png)
 
 `main.yml` 里的内容如下：
 
@@ -117,17 +117,17 @@ pnpm的版本也根据你的实际使用而定，后面的内容都一样。其�
 正常情况下一般都在 `vite.config.ts` 或 `vue.config.js` 或 `webpack.config.js` 里，取决于你使用了哪种脚手架。
 以 `vite.config.ts` 为例，存在 `base` 字段中。参考代码 [vite-vue3-charts](https://github.com/weizwz/vite-vue3-charts/blob/main/vite.config.ts)
 
-![20240912_265487.png](https://www.helloimg.com/i/2025/01/03/6777507f7d2cd.png)
+![20240912_265487.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777507f7d2cd.png)
 
 如果你有封装的话，如上图，可能是一个变量，一般都在根目录的 `.env.production` 文件中，修改此变量的值即可。如下图：
 
-![20240912_265488.png](https://www.helloimg.com/i/2025/01/03/6777507fe4ea0.png)
+![20240912_265488.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777507fe4ea0.png)
 
 ## 5. 提交代码，你的项目即可自动部署
 
 或者到GitHub网站仓库目录，在 `Actions` 页签中，手动部署
 
-![20240912_265489.png](https://www.helloimg.com/i/2025/01/03/67775080ba0a0.png)
+![20240912_265489.png](http://sto1fqpd6.hn-bkt.clouddn.com/67775080ba0a0.png)
 
 ## 6. 访问路径
 

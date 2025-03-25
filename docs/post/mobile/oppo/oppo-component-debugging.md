@@ -12,7 +12,7 @@ tags:
 
 > 本篇作为 [OPPO主题组件调试与预览](https://open.oppomobile.com/new/developmentDoc/info?id=12221) 文档的补充，因为它真的很简单而且太老，一些命令已发生变化😪
 
-![image](https://www.helloimg.com/i/2025/01/02/677642d50c4b7.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d50c4b7.png)
 
 _此图片来自官网_
 
@@ -25,15 +25,15 @@ _此图片来自官网_
 2. **解压，放在你想放的文件夹下**
 3. **配置环境变量**
    右键 `我的电脑/此电脑` 选择 `属性`，在弹出的面板里选择 `高级系统设置`
-   ![image](https://www.helloimg.com/i/2025/01/02/677642d54b705.png)
+   ![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d54b705.png)
    在弹出的面板里，选择 `环境变量`，在弹出的面板里找到 `Path`，点击 `编辑`
-   ![image](https://www.helloimg.com/i/2025/01/02/677642d605f7d.png)
+   ![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d605f7d.png)
    在弹出的面板里，选择 `新建`，在新建的空白行内填入，你解压后的文件夹地址，比我的是 `D:\Tools\windows\platform-tools`
-   ![image](https://www.helloimg.com/i/2025/01/02/677642d48efcc.png)
+   ![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d48efcc.png)
    最后一步步`确定`，关闭所有面板
 4. **测试**
    打开命令行工具，输入 `adb`，出现如下，则表示安装成功
-   ![image](https://www.helloimg.com/i/2025/01/02/677642d3ab872.png)
+   ![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d3ab872.png)
 
 ### 2. 手机端安装 `多彩引擎`
 
@@ -43,16 +43,16 @@ _此图片来自官网_
 
 1. **手机找到 `开发者选项`**
    没这个选项的话，请打开手机 `设置` -> `关于本机` -> `版本信息`，然后持续点击 `版本号`，直至出现类似 `您现在已处于开发者模式` 的提示即可。然后在 `设置` -> `其他设置` 下即可找到 `开发者选项`
-   ![image](https://www.helloimg.com/i/2025/01/02/677642d41c849.png)
+   ![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d41c849.png)
 2. **打开开发者选项里的 `USB调试`**
    出现提示，请点击 `确定`
-   ![image](https://www.helloimg.com/i/2025/01/02/677642d67e404.png)
+   ![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d67e404.png)
 3. **手机通过 `USB` 数据线连接电脑**
    连接无反应的，请检查接口或换线
    连接后，选择 `传输文件`
-   ![image](https://www.helloimg.com/i/2025/01/02/677642d6d7aa6.png)
+   ![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d6d7aa6.png)
    弹出框提示`允许USB调试吗`，请选择 `允许`
-   ![image](https://www.helloimg.com/i/2025/01/02/677642d74ce96.png)
+   ![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d74ce96.png)
 
 **经历以上步骤，则准备工作已做好**
 
@@ -94,7 +94,7 @@ system.zip: 1 file pushed, 0 skipped. 131.9 MB/s (240171 bytes in 0.002s)
 ### 4. 手机端打开 `多彩引擎` 软件
 
 点击新出现的压缩包，出现组件预览，然后 `添加到桌面` 即可
-![image](https://www.helloimg.com/i/2025/01/02/677642d81bf3b.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d81bf3b.png)
 
 ## 三、开发者进阶
 
@@ -118,7 +118,7 @@ adb sh rm /sdcard/Android/data/com.heytap.colorfulengine/files/widget/xxx.zip
 
 > 请先查看 [OPPO远程真机的官方介绍](https://open.oppomobile.com/new/introduction?page_name=cloudmachine)
 
-![image](https://www.helloimg.com/i/2025/01/02/677642d7d83a7.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677642d7d83a7.png)
 前2步进行完毕后，执行以下命令
 
 ```sh

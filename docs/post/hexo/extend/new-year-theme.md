@@ -15,9 +15,9 @@ tags:
 
 ## 先上预览图
 
-![images](https://www.helloimg.com/i/2025/01/02/6776498080354.jpg)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/6776498080354.jpg)
 
-![images](https://www.helloimg.com/i/2025/01/02/6776496a9ce34.jpg)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/6776496a9ce34.jpg)
 
 ## 修改`Butterfly`配置文件
 
@@ -168,7 +168,7 @@ inject:
 
 在 `BlogRoot/node_modules/hexo-theme-butterfly/layout/includes/layout.pug` 中引入 `lantern.pug`。
 如下图：
-![image](https://www.helloimg.com/i/2025/01/01/6774b652a94ee.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6774b652a94ee.png)
 
 ### 新增 `css`
 

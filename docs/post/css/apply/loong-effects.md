@@ -16,7 +16,7 @@ tags:
 ## 预览
 
 在线预览 [龙年腾云](https://weizwz.com/fun-animation/)
-![image](https://www.helloimg.com/i/2024/11/23/67419ab019579.gif)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/67419ab019579.gif)
 
 ## 源码
 
@@ -208,8 +208,8 @@ tags:
 
 截图展示：
 
-![image](https://www.helloimg.com/i/2024/12/30/6772c20577dec.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772c20577dec.png)
 
-![image](https://www.helloimg.com/i/2024/12/30/6772c2056df68.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772c2056df68.png)
 
 **当然，最后祝大家`龙年快乐`！**

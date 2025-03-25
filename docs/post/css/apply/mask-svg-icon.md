@@ -108,7 +108,7 @@ tags:
 
 推荐一个 SVG 图标网站：[icon-sets.iconify.design](https://icon-sets.iconify.design/?query=home)。找到自己想要的图标后，点击图标，选择下方的 URL 复制即可。
 
-![icon-sets.iconify.design](https://www.helloimg.com/i/2024/12/23/676977dcdbb3a.png)
+![icon-sets.iconify.design](http://sto1fqpd6.hn-bkt.clouddn.com/676977dcdbb3a.png)
 
 ## 应用
 
@@ -118,7 +118,7 @@ tags:
 
 效果如图：
 
-![image-20241223221217819.png](https://www.helloimg.com/i/2024/12/23/676973df31305.png)
+![image-20241223221217819.png](http://sto1fqpd6.hn-bkt.clouddn.com/676973df31305.png)
 
 真实案例请查看：[唯知笔记](https://note.weizwz.com/)
 

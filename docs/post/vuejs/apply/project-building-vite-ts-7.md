@@ -321,7 +321,7 @@ export const loginApi = (params: any) => {
 
 点击 `login` 按钮，即可看到请求。
 
-![images](https://www.helloimg.com/i/2025/01/02/677669f39e439.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677669f39e439.png)
 
 ## 说明
 
@@ -337,7 +337,7 @@ axios 源码有修改，拦截器传入和返回的参数不再是 `AxiosRequest
 constructor 里的 `this.config` 会接受所有实例参数，所以通用实例拦截里使用的是 `this.config?.xxx`
 通用拦截里使用的是 `config.showLoading`，而不是 `this.config.showLoading`，是为了我们在实际的 `api/login.ts` 里可以再传入 `showLoading`，以满足我们单个请求的要求。而通过 `this.config` 里获取的配置是 `request/index.ts` 里传入的配置。在 `config.showLoading` 之前我们可以打印下这两个 `config` ，`console.log(this.config, config)` 结果如下：
 
-![images](https://www.helloimg.com/i/2025/01/02/677669f496bb5.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677669f496bb5.png)
 
 如果在 `login.ts` 里不传入 `showLoading`，那么 `config.showLoading` 会去拿通用实例 `request/index.ts` 里的 `showLoading`。
 ** 当然如果不需要全局加载动画，整个 `loading` 也都可以去掉 **

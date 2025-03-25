@@ -16,8 +16,8 @@ tags:
 
 ### 效果展示
 
-![image](https://www.helloimg.com/i/2024/12/30/6772c20577dec.png)
-![image](https://www.helloimg.com/i/2024/12/30/6772c2056df68.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772c20577dec.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772c2056df68.png)
 
 ### 龙年动画详解
 
@@ -57,16 +57,16 @@ post:
 
 `默认`
 
-![image](https://www.helloimg.com/i/2024/12/30/6772c27e978a8.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772c27e978a8.png)
 
 `屏幕宽度 <= 1200`
 
-![image](https://www.helloimg.com/i/2024/12/30/6772c2671c8e6.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6772c2671c8e6.png)
 
 `移动端`
 
-<image style="display: inline-block; margin-right: 10%;" src="https://www.helloimg.com/i/2024/12/30/6772c25c7d4a8.png" alt="移动端效果图片1"/>
-<image style="display: inline-block;" src="https://www.helloimg.com/i/2024/12/30/6772c25c52b01.png" alt="移动端效果图片2"/>
+<image style="display: inline-block; margin-right: 10%;" src="http://sto1fqpd6.hn-bkt.clouddn.com/>
+<image style="display: inline-block;" src="http://sto1fqpd6.hn-bkt.clouddn.com/>
 
 ## 安装
 

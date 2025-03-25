@@ -17,13 +17,13 @@ tags:
 
 需要注意的是，添加的记录值为 `你的github账号名称.github.io`；主机记录的 `*` 是通配符，代表 `*.主域名.com`，`*` 可以是 blog 或 mail 等，如果你只是想给单个三级域名添加解析，则将 `*` 替换成单个的名称。
 
-![image-域名站点新增解析](https://www.helloimg.com/i/2024/12/20/6765283ca502f.png)
+![image-域名站点新增解析](http://sto1fqpd6.hn-bkt.clouddn.com/6765283ca502f.png)
 
 ## 2. Github 项目设置
 
 打开你的 Github 项目仓库，切换到 `settings` --> `Pages` --> `Custom domain`，然后填入上面配置的三级域名，保存即可。如果页面提示失败，可以稍等再试，因为平台的域名解析需要一段时间生效。
 
-![image-Github项目设置](https://www.helloimg.com/i/2024/12/20/67652880dd92a.png)
+![image-Github项目设置](http://sto1fqpd6.hn-bkt.clouddn.com/67652880dd92a.png)
 
 
 

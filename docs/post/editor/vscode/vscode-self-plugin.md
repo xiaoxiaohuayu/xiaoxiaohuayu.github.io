@@ -42,8 +42,8 @@ indent_size = 2                     # 使用2个空格缩进
 
 ## 2. 图标预览插件 `Iconify IntelliSense`
 代码里的图标在写下的瞬间，就能直接转化为对应的图标在代码编辑器里面显示出来。
-![images](https://www.helloimg.com/i/2025/01/02/6775e8b6a6538.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/6775e8b6a6538.png)
 
 ## 3. `Code Spell Checker`
 谁能保证没有拼写错误呢，有时候一个字母的错误让你找寻半天无解，使用此插件，即可将你的拼写错误直接展现出来。
-![images](https://www.helloimg.com/i/2025/01/02/6775e8b705620.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/6775e8b705620.png)

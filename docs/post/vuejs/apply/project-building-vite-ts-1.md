@@ -145,4 +145,4 @@ PS D:\workspace\vue3\weiz-vue3-template> npm run dev
 打开浏览器，输入 `http://127.0.0.1:5173/` 查看项目
 <!-- ![image](/img/blog/20231109_1.png) -->
 
-![image](https://www.helloimg.com/i/2025/01/02/677662e6416e2.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677662e6416e2.png)

@@ -16,7 +16,7 @@ tags:
 
 使用前后对比
 
-![mac_edge_clear.png](https://www.helloimg.com/i/2025/01/03/677744340610b.png)
+![mac_edge_clear.png](http://sto1fqpd6.hn-bkt.clouddn.com/677744340610b.png)
 
 ## 省流
 
@@ -29,11 +29,11 @@ tags:
 安装流程： `右键文件 -> 打开`，或者 `双击文件`
 选择 `继续`
 
-![20240203_212128.png](https://www.helloimg.com/i/2025/01/03/6777442ecdaa6.png)
+![20240203_212128.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777442ecdaa6.png)
 
 选择 `安装`
 
-![20240203_212152.png](https://www.helloimg.com/i/2025/01/03/6777442ea9cae.png)
+![20240203_212152.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777442ea9cae.png)
 
 安装完成后，重启浏览器即可。
 
@@ -41,23 +41,23 @@ tags:
 
 此配置文件的主要功能：**禁用更新，禁用告警，关闭诊断，优化新标签页** 等。所有的配置项，可在安装完此配置后，在 Edge 浏览器地址栏输入 `about://policy` 后打开查看。点击策略名称，会跳转到相应地址，描述此策略。
 
-![20240203_213512.png](https://www.helloimg.com/i/2025/01/03/6777442e9e3ed.png)
+![20240203_213512.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777442e9e3ed.png)
 
 如果你想修改此配置中的任意选项或者新增选项，可以打开此地址 [admx.help](https://admx.help/?Category=EdgeChromium&Language=zh-cn)，找到对应配置项(以`启用新标签页的预加载以提高呈现速度`为例)后点击打开：
 
-![20240203_214407.png](https://www.helloimg.com/i/2025/01/03/6777442ec5f9e.png)
+![20240203_214407.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777442ec5f9e.png)
 
 找到 `Value Name` 和 `Value` 对应的值
 
-![20240203_214622.png](https://www.helloimg.com/i/2025/01/03/6777442ec652d.png)
+![20240203_214622.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777442ec652d.png)
 
 然后用 `文本编辑器` 或其他编辑器打开此配置文件，新增的话，就在 `<key>PayloadContent</key> <array> <dict>` 这层标签内容新增 `key 标签`，标签内容对应在上图中找到的 `Value Name` 值，然后新增一行 `<true/>` 或者 `<false/>`。true 对应 `Value==1`，false 对应 `Value==0`。
 
-![20240203_215000.png](https://www.helloimg.com/i/2025/01/03/6777443260b6e.png)
+![20240203_215000.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777443260b6e.png)
 
 如果有多个 `Value` 值，就不能用 `true` 或者 `false` 标签了，而是用 `<integer>xxx</integer>`，xxx 的内容对应其 `Value` 值。
 
-![20240203_220255.png](https://www.helloimg.com/i/2025/01/03/6777443294ede.png)
+![20240203_220255.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777443294ede.png)
 
 修改的话，就直接搜索此配置项的名称，然后直接修改值即可，修改值的方式同上。
 
@@ -67,7 +67,7 @@ tags:
 
 进入 `mac系统偏好设置` -> `描述文件`，然后 `-` 掉此配置即可。
 
-![20240203_214038.png](https://www.helloimg.com/i/2025/01/03/6777442ea2ec1.png)
+![20240203_214038.png](http://sto1fqpd6.hn-bkt.clouddn.com/6777442ea2ec1.png)
 
 ## 说明
 
@@ -83,15 +83,15 @@ Mac 用户社区维护了一个 [ProfileManifests](https://github.com/ProfileCre
 
 安装 `iMazing Profile Editor` 后打开，先在 `General` 里填入必填项
 
-![20240203_234511.png](https://www.helloimg.com/i/2025/01/03/67774433acbc2.png)
+![20240203_234511.png](http://sto1fqpd6.hn-bkt.clouddn.com/67774433acbc2.png)
 
 然后在左侧列表，找到 Edge 后点击，在右侧面板里选择 `+ Add Configuration Payload`
 
-![20240203_234626.png](https://www.helloimg.com/i/2025/01/03/67774433a472b.png)
+![20240203_234626.png](http://sto1fqpd6.hn-bkt.clouddn.com/67774433a472b.png)
 
 然后，就会出现 Edge 的各种配置项，选择你想要编辑的配置项即可。
 
-![20240203_234809.png](https://www.helloimg.com/i/2025/01/03/67774434228a6.png)
+![20240203_234809.png](http://sto1fqpd6.hn-bkt.clouddn.com/67774434228a6.png)
 
 编辑好后，保存，就会生成后缀为 `.mobileconfig` 的可安装文件。最后安装此文件即可。
 

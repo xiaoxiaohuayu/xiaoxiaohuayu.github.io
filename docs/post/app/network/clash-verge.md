@@ -22,15 +22,15 @@ tags:
 
 进入页面后，点击 `tags`，然后点击 `Releases`，下拉页面找到最新版本下的 `Assets` 标签，里面含有安装包和压缩包，找到对应自己系统的安装包下载即可。
 
-![image](https://www.helloimg.com/i/2024/12/26/676ccca167947.jpg)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/676ccca167947.jpg)
 
 点击 `Show all 19 assets` 展开后，可看到所有安装包
 
-![image](https://www.helloimg.com/i/2024/12/26/676ccca220740.jpg)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/676ccca220740.jpg)
 
 如果下载较慢，建议使用加速下载，右键链接选择复制，然后粘贴地址到 [Github加速网站](https://ghproxy.com/) 进行下载
 
-![image](https://www.helloimg.com/i/2024/12/26/676ccca04b5f5.jpg)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/676ccca04b5f5.jpg)
 
 ## 开发环境配置
 
@@ -91,11 +91,11 @@ export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_pr
 
 目前在本人的win11中有出现，包含微软商店秒退等现象，是由于 `Clash Verge` 自动启动了代理服务器，手动关闭即可。
 
-![image](https://www.helloimg.com/i/2024/12/26/676ccca0c7a4d.jpg)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/676ccca0c7a4d.jpg)
 
 点击 `编辑` ，手动关闭后保存，如果微软商店还不能联网，重启电脑即可。
 
-![image](https://www.helloimg.com/i/2024/12/26/676ccca0c76ec.jpg)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/676ccca0c76ec.jpg)
 
 ### 2. 部分国内网站加载缓慢
 

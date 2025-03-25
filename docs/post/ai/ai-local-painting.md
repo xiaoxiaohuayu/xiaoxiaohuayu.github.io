@@ -36,20 +36,20 @@ pip 22.3.1 from D:\develop\python\lib\site-packages\pip (python 3.10)
 ### 2. 下载[`Stable Diffusion web UI`](https://github.com/AUTOMATIC1111/stable-diffusion-webui)。
 
 下载到本地后解压，或者使用`git`命令`clone`
-![images](https://www.helloimg.com/i/2025/01/02/677608d1721b7.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677608d1721b7.png)
 
 ### 3. 下载训练模型文件
 
 链接: https://pan.baidu.com/s/1Y1r05mwdXYkt1RTP4XfOXA?pwd=22yd 提取码: 22yd
 将模型文件解压缩放到 `models` 目录下。
 在 `models/Stable-diffusion` 里，可以看到这几个文件：
-![images](https://www.helloimg.com/i/2025/01/02/677608d07576d.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677608d07576d.png)
 
 ### 4. 运行
 
 在 `Stable Diffusion web UI` 根目录下右键运行 `webui.bat`
 刚开始会下载一些依赖库，如图：
-![images](https://www.helloimg.com/i/2025/01/02/677608d0aa882.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677608d0aa882.png)
 
 下载某些资源需要[飞行工具](https://note.weizwz.com/app/network/clash-verge)；
 或者配置国内镜像地址：
@@ -74,14 +74,14 @@ trusted-host = pypi.douban.com
 ```
 
 下载完成之后，截图如下：
-![images](https://www.helloimg.com/i/2025/01/02/677608d107077.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677608d107077.png)
 
 可以看到服务已经启动，在浏览器内输入`http://127.0.0.1:7860/`即可访问
 
 ### 5.访问
 
 界面如下：
-![images](https://www.helloimg.com/i/2025/01/02/677608d1db1d6.png)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677608d1db1d6.png)
 
 ### 6.安装插件
 
@@ -92,10 +92,10 @@ trusted-host = pypi.douban.com
 3. 点击`install`，安装完成后点击黄色按钮`Apply and restart UI`网页下方的`Reload UI`完成重启)
 4. 点击`Settings`标签页，左侧点击`User interface`界面，在界面里最下方的`Localization (requires restart)`，选择`Chinese-All`或者`Chinese-English`
 5. 点击界面最上方的黄色按钮`Apply settings`，再点击右侧的`Reload UI`即可完成汉化
-   ![images](https://www.helloimg.com/i/2025/01/02/677608d0a9a4e.png)
+   ![images](http://sto1fqpd6.hn-bkt.clouddn.com/677608d0a9a4e.png)
    最新操作方法可查看 [stable-diffusion-webui-chinese](https://github.com/VinsonLaro/stable-diffusion-webui-chinese)
    汉化结果
-   ![images](https://www.helloimg.com/i/2025/01/02/677608d4324ba.png)
+   ![images](http://sto1fqpd6.hn-bkt.clouddn.com/677608d4324ba.png)
 
 **然后愉快的开始你的作画之旅吧💕~**
 

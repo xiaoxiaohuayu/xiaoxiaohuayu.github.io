@@ -20,12 +20,12 @@ tags:
 正常访问端口8058
 
 <!-- ![image](/img/blog/20231021_1.png) -->
-![image](https://www.helloimg.com/i/2025/01/02/677654e929e49.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677654e929e49.png)
 
 经过nginx配置（文末具体展示）后，去除端口，如下：
 
 <!-- ![image](/img/blog/20231021_2.png) -->
-![image](https://www.helloimg.com/i/2025/01/02/677654e95975a.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677654e95975a.png)
 
 ## 前端开发环境
 
@@ -127,26 +127,26 @@ export const getLogin = (data?: object) => {
 由于使用了代理，所以不会有跨域的问题，如图：
 
 <!-- ![image](/img/blog/20231021_3.png) -->
-![image](https://www.helloimg.com/i/2025/01/02/677654e965f14.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677654e965f14.png)
 
 ## 前端生产环境
 
 生产环境采用Tomcat，前端项目打包好后，放在Tomcat的 `webapps/ROOT` 目录下即可，如图：
 
 <!-- ![image](/img/blog/20231021_4.png) -->
-![image](https://www.helloimg.com/i/2025/01/02/677654e9bc718.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677654e9bc718.png)
 
 启动Tomcat，双击 `apache-tomcat-8.5.93/bin/` 目录下的 `startup.bat`，linux机器到 `bin` 目录下，运行 `./startup.sh`
 
-![image](https://www.helloimg.com/i/2025/01/02/677654f255dd7.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677654f255dd7.png)
 
 访问，Tomcat默认端口为8080，访问后台接口报跨域错误
 
-![image](https://www.helloimg.com/i/2025/01/02/677654ea49296.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677654ea49296.png)
 
 nginx配置后，去除端口，访问正常
 
-![image](https://www.helloimg.com/i/2025/01/02/677654f0c60aa.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677654f0c60aa.png)
 
 ## nginx配置
 
@@ -205,7 +205,7 @@ server {
 答：有关系，但是不是你想象的关系。
 首先我们要确认，你的实际的请求地址里，其实不包含 `api` 这段路径。如图：
 
-![image](https://www.helloimg.com/i/2025/01/02/677654ed6ae81.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677654ed6ae81.png)
 
 开发环境加这个只是为了代理区分，因为你可能要请求多个不同域名的后端服务：我可以在 `vite.config.ts` 文件的 `proxy` 里再加一个以 `^/auth` 开头的，导向其他域名的后端服务。
 其次代码里也可以看到 `rewrite: path => path.replace(/^\/api/, "")`，所以实际的请求地址，最终是去掉了 `api`。

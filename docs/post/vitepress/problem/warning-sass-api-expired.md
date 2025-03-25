@@ -12,7 +12,7 @@ tags:
 
 Vitepress 1.5.0 中引入 Sass 后，控制台告警：`The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0`，虽然不是错误，但是看着很多很烦，于是上手解决一下并记录。
 
-![image-20250106154230831.png](https://www.helloimg.com/i/2025/01/06/677b95262e2f8.png)
+![image-20250106154230831.png](http://sto1fqpd6.hn-bkt.clouddn.com/677b95262e2f8.png)
 
 ## 原因分析
 
@@ -113,7 +113,7 @@ module.exports = {
 
 也是一些语法将来会被弃用的告警
 
-![image-20250106162215962.png](https://www.helloimg.com/i/2025/01/06/677b9526782cb.png)
+![image-20250106162215962.png](http://sto1fqpd6.hn-bkt.clouddn.com/677b9526782cb.png)
 
 
 直接根据提示修改相关内容即可

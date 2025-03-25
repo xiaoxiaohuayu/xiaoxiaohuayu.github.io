@@ -19,13 +19,13 @@ tags:
 
 下载后解压即可使用。软件界面操作，已按下图标识出来。
 
-![image-20250115105714856.png](https://www.helloimg.com/i/2025/01/15/6787288c3ca9a.png)
+![image-20250115105714856.png](http://sto1fqpd6.hn-bkt.clouddn.com/6787288c3ca9a.png)
 
 说几个需要注意的点：
 
 + 如果你有常用操作，最好是录制一次后，保存下来，下次点击 `load` 按钮加载后可以直接执行。
 + 最好选上 `Middle Click toStart/StopExecution` 这个选项，方便你快速的停止脚步运行。
-+ 右下角 `Schedule` 可以设置定时开始脚本，也是比较方便![image-20250115110335148.png](https://www.helloimg.com/i/2025/01/15/6787288c11f87.png)
++ 右下角 `Schedule` 可以设置定时开始脚本，也是比较方便![image-20250115110335148.png](http://sto1fqpd6.hn-bkt.clouddn.com/6787288c11f87.png)
 
 ## 其他问题
 
@@ -37,7 +37,7 @@ tags:
 
 这个可以替换，到 [https://macosicons.com/#/](https://macosicons.com/#/) 上下载一个好看的图标替换即可。比如我就换成了 `Mac Mouse Fix`
 
-![image-20250115111144070.png](https://www.helloimg.com/i/2025/01/15/6787288c46630.png)
+![image-20250115111144070.png](http://sto1fqpd6.hn-bkt.clouddn.com/6787288c46630.png)
 
 ### 3. 使用一段时候后，提示输入邮件地址
 

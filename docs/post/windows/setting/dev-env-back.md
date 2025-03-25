@@ -68,7 +68,7 @@ d----          2023/10/11    18:20                WPS Office
 ### 1. 先新建系统变量，将以下需要的公共变量填入
 
 <!-- ![image](/img/blog/20231025_1.png) -->
-![image](https://www.helloimg.com/i/2025/01/02/6776616e79f4c.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6776616e79f4c.png)
 
 | 变量名(N)     | 变量值(V)                           | 备注   |
 | ------------- | ----------------------------------- | ------ |
@@ -81,7 +81,7 @@ d----          2023/10/11    18:20                WPS Office
 
 点击如下图所示的 `编辑文本` 按钮，可以整行输入所有 `path` 变量值
 
-![image](https://www.helloimg.com/i/2025/01/02/6776616feb12d.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6776616feb12d.png)
 
 粘贴后，请将无用的变量值删除
 
@@ -118,7 +118,7 @@ OpenJDK 64-Bit Server VM (Zulu 8.72.0.17-CA-win64) (build 25.382-b05, mixed mode
 
 ## win11环境优化
 
-![image](https://www.helloimg.com/i/2025/01/02/6776616d53a08.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6776616d53a08.png)
 
 ### 1. 右键菜单恢复成win10样式
 
@@ -206,25 +206,25 @@ pause
 
 Windows11轻松设置 是一款第三方软件，旨在帮助用户更轻松地配置和优化Windows 11的各种设置。推荐去 `bilibili` 或 `远景论坛` 搜索下载。
 
-![image](https://www.helloimg.com/i/2025/01/02/677661704d426.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/677661704d426.png)
 
 ### 2. 解压缩软件 `WinRAR`
 
 请自行搜索安装报，或去 [官网](https://www.rarlab.com/download.htm) 下载
 
-![image](https://www.helloimg.com/i/2025/01/02/6776616f80740.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6776616f80740.png)
 
 ### 3. 命令行工具 `Windows Terminal`
 
 打开应用商店 `Microsoft Store`，搜索 `Terminal` 后，点击安装
 
-![image](https://www.helloimg.com/i/2025/01/02/67766173e0d00.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/67766173e0d00.png)
 
 ### 4. `office` 套件
 
 安装 [Office Tools PLus](https://otp.landian.vip/zh-cn/) 软件，一键部署
 
-![image](https://www.helloimg.com/i/2025/01/02/6776617c60ccc.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6776617c60ccc.png)
 
 激活，关闭安全软件，使用 `HEU_KMS_Activator_v30` 激活，此软件下载请自行搜索
 
@@ -232,7 +232,7 @@ Windows11轻松设置 是一款第三方软件，旨在帮助用户更轻松地�
 
 请自行下载安装包，或去官网安装 [Adobe Creative Cloud](https://www.adobe.com/cn/lead/creativecloud/business.html) 后（点击 `试用`，下载安装），可打开此软件安装一系列设计软件
 
-![image](https://www.helloimg.com/i/2025/01/02/67766175b7db0.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/67766175b7db0.png)
 
 激活，关闭安全软件，使用 `Adobe GenP 3.0` 激活，，此软件下载请自行搜索
 
@@ -240,7 +240,7 @@ Windows11轻松设置 是一款第三方软件，旨在帮助用户更轻松地�
 
 打开应用商店 `Microsoft Store`，搜索 `Snipaste` 或者 `PixPin` 后，点击安装
 
-![image](https://www.helloimg.com/i/2025/01/02/6776617571f8e.png)
+![image](http://sto1fqpd6.hn-bkt.clouddn.com/6776617571f8e.png)
 
 ### 7. 其他软件
 

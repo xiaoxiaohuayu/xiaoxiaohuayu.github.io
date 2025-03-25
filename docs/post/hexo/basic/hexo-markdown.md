@@ -92,7 +92,7 @@ color 可选：default/blue/pink/red/purple/orange/green
 
 效果：
 
-![20250102_215650.png](https://www.helloimg.com/i/2025/01/02/67769b1685bd2.png)
+![20250102_215650.png](http://sto1fqpd6.hn-bkt.clouddn.com/67769b1685bd2.png)
 
 ### 行内图片
 
@@ -139,7 +139,7 @@ Any content (support inline tags too).
 
 效果：
 
-![20250102_215719.png](https://www.helloimg.com/i/2025/01/02/67769b15ec337.png)
+![20250102_215719.png](http://sto1fqpd6.hn-bkt.clouddn.com/67769b15ec337.png)
 
 ### 系列文章
 
@@ -169,4 +169,4 @@ series: vue3ViteTs
 
 效果：
 
-![20240102_133734.png](https://www.helloimg.com/i/2025/01/02/67768f1d78a7b.png)
+![20240102_133734.png](http://sto1fqpd6.hn-bkt.clouddn.com/67768f1d78a7b.png)

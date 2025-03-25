@@ -860,7 +860,7 @@ export default defineComponent({
 
 简单画张图表达他们的关系：
 
-![image-20250227172813931](https://www.helloimg.com/i/2025/02/27/67c0658c09d48.png)
+![image-20250227172813931](http://sto1fqpd6.hn-bkt.clouddn.com/67c0658c09d48.png)
 
 ## Mixins 混入
 

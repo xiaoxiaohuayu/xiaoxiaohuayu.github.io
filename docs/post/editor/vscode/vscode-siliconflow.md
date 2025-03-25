@@ -19,13 +19,13 @@ tags:
 
 去 [注册地址](https://cloud.siliconflow.cn/i/38Vhbw8N) 注册即可，当前官方活动：新用户注册赠送 2000万 tokens，大约14R。同时，复制你的邀请码/邀请链接，邀请新用户使用手机号注册，也会赠送你 2000万 tokens。
 
-![image-20250212110900917.png](https://www.helloimg.com/i/2025/02/12/67ac5a16e2232.png)
+![image-20250212110900917.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a16e2232.png)
 
 ### 2. 创建API
 
 进入左侧菜单 `API密钥` 后，选择 `新建API密钥`，输入描述后 `新建` 即可。创建完成后，列表会出现新建的密钥，点击名称即可复制
 
-![image-20250212111021184.png](https://www.helloimg.com/i/2025/02/12/67ac5a15ae49c.png)
+![image-20250212111021184.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a15ae49c.png)
 
 ## VS Code上安装并配置插件 cline
 
@@ -35,13 +35,13 @@ tags:
 
 安装很简单，在 VS Code 的插件市场搜索 `cline` ，安装第一个插件就行
 
-![image-20250211175939362.png](https://www.helloimg.com/i/2025/02/12/67ac5a14550e7.png)
+![image-20250211175939362.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a14550e7.png)
 
 ### 2. 配置模型和API
 
 安装完成后，编辑器左侧会出现一个机器人图标，点击图标，默认会展示模型设置区，我们需要在这里配置相关模型和API
 
-![image-20250212135702072.png](https://www.helloimg.com/i/2025/02/12/67ac5a0e4a0b9.png)
+![image-20250212135702072.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a0e4a0b9.png)
 
 `API Provider` 选择 `OpenAl Compatible`
 
@@ -49,11 +49,11 @@ tags:
 
 `API Key` 需要复制好我们在硅基流动平台上创建的 API，粘贴进去
 
-![image-20250212135230092.png](https://www.helloimg.com/i/2025/02/12/67ac5a112ea52.png)
+![image-20250212135230092.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a112ea52.png)
 
 `Model ID` 在硅基流动平台的模型广场里，点击我们要使用的模型，点开后复制模型名称，然后粘贴进去。我这边选择的是 `deepseek-ai/DeepSeek-V3`，也可以选择其他模型，我选择这个是感觉速度快一点。这里需要注意的是：**以 `Pro` 开头的模型一般需要有充值余额才可使用**
 
-![image-20250212134932259.png](https://www.helloimg.com/i/2025/02/12/67ac5a1258af6.png)
+![image-20250212134932259.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a1258af6.png)
 
 > [!NOTE] 提示
 > 但使用某个模型比较卡顿时，可随时切换到其他模型，只需修改`Model ID` ，其他地方不用修改
@@ -66,7 +66,7 @@ tags:
 
 在对话框界面，我们 `勾选并点击` 对话框上方的选项，进入权限配置，然后根据自己的需求对部分选项打勾，赋予 cline 更多操作权限。这里我基本都是全打勾了，`Max Requests` 设置了 100
 
-![image-20250212112954957.png](https://www.helloimg.com/i/2025/02/12/67ac5a13e0303.png)
+![image-20250212112954957.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a13e0303.png)
 
 ## 使用
 
@@ -74,7 +74,7 @@ tags:
 
 界面功能说明如下图，有一些不懂的设置，可以直接询问 cline，如：`cline插件的MCP Servers是干什么用的`、 `cline插件的 plan和act模式有什么区别` 等。
 
-![image-20250212140844268.png](https://www.helloimg.com/i/2025/02/12/67ac5a106836d.png)
+![image-20250212140844268.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a106836d.png)
 
 ### 2. cline简单对话
 
@@ -82,7 +82,7 @@ tags:
 
 需要注意的是，**cline 的所有功能都是依据对话来完成**，包括搭建项目，创建文件，优化代码等，没有自动补全，你可以输入提示让他帮你一直优化代码
 
-![image-20250212142129451.png](https://www.helloimg.com/i/2025/02/12/67ac5a114f6f5.png)
+![image-20250212142129451.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a114f6f5.png)
 
 ### 3. 对话之 优化代码片段/文件/项目
 
@@ -90,13 +90,13 @@ tags:
 
 需要注意的是，cline 在编辑后如发现有错误，会自动识别并继续纠正，不需要我们再提示它，编辑过程中，不需要我们再操作
 
-![image-20250212144413466.png](https://www.helloimg.com/i/2025/02/12/67ac5a11dbc0c.png)
+![image-20250212144413466.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a11dbc0c.png)
 
 升级项目所有的依赖，例如：`查看我的项目依赖，看看有哪些需要升级，需要注意的是我项目用 pnpm`
 
 需要注意的是，一些高危操作，cline 会再对话区域弹出确认框，让我们确认后才继续操作
 
-![image-20250212151718003.png](https://www.helloimg.com/i/2025/02/12/67ac5a1117689.png)
+![image-20250212151718003.png](http://sto1fqpd6.hn-bkt.clouddn.com/67ac5a1117689.png)
 
 ### 其他
 

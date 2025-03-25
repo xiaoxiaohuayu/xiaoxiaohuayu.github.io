@@ -168,6 +168,6 @@ createApp(App).use(router).mount('#app')
 
 ## 3. 预览
 
-![images](https://www.helloimg.com/i/2025/01/02/677668c277fd7.gif)
+![images](http://sto1fqpd6.hn-bkt.clouddn.com/677668c277fd7.gif)
 
 其他用法，包括传参、重定向、动态路由、过渡动效等，请参考[官方文档](https://router.vuejs.org/zh/)。
