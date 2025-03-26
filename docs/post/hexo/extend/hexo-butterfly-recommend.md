@@ -45,7 +45,7 @@ post:
     # - '2023/11/19/hello-world'
     # - '2023/11/21/如何开发hexo扩展插件'
     # - '2023/11/21/Copilot-with-Bing-Chat'
-  paths_completion: #次级推荐页补全，当 paths 不足6个时自动生效
+  paths_completion: # 次级推荐页补全，当 paths不足6个时自动生效
     type: 'text' #值为'posts' 或者 'random' 或者 'text'
     text: '祝君龙年大吉，龙福齐天,龙兴大运，生意兴龙,龙,龙腾虎跃，龙光焕发,龙体安康，生龙活虎,龙华富贵，万事兴龙' #当 type 为 text 时生效。以,号分隔，取前6个。有单独的龙字时出现特效
     # text_bg: 'rgba(254, 38, 33,.8),rgba(255, 187, 106, .8)' #文字背景渐变，建议有透明色，最多支持2个，以,号分隔
@@ -65,9 +65,10 @@ post:
 
 `移动端`
 
-<image style="display: inline-block; margin-right: 10%;" src="http://sto1fqpd6.hn-bkt.clouddn.com/>
-<image style="display: inline-block;" src="http://sto1fqpd6.hn-bkt.clouddn.com/>
-
+```html
+<img style="display: inline-block; margin-right: 10%;" src="http://sto1fqpd6.hn-bkt.clouddn.com/example-image1.png" />
+<img style="display: inline-block;" src="http://sto1fqpd6.hn-bkt.clouddn.com/example-image2.png" />
+```
 ## 安装
 
 ```sh
