@@ -44,8 +44,7 @@ export default createContentLoader(
       let posts: Post[] = []
       let years: Year = {}
       let tags: Tag = {}
-
-      data.forEach(({ frontmatter, src, url }) => {
+      data?.forEach(({ frontmatter, src, url }) => {
         // 优先取frontmatter里的标题，没有的话再去找源文中的标题
         let title = frontmatter.title
         /** includeSrc=true才生效
@@ -123,8 +122,8 @@ export default createContentLoader(
       // 固定文章从最早发布日期开始，以便标签数组能稳定显示（不会因为新发布文章而导致顺序变化）
       const fixPages = pages.sort((a, b) => a.date[0] - b.date[0])
       let tagNames: string[] = []
-      fixPages.forEach((item) => {
-        item.tags.forEach((tag) => {
+      fixPages?.forEach((item) => {
+        item.tags?.forEach((tag) => {
           if (tagNames.indexOf(tag) == -1) {
             tagNames.push(tag)
             tags[tag] = []
@@ -137,7 +136,7 @@ export default createContentLoader(
       // 更新时间降序排列
       // posts = pages.sort((a, b) => b.date[1] - a.date[1])
 
-      posts.forEach((item) => {
+      posts?.forEach((item) => {
         // 根据标签归类文章
         if (item.tags) {
           item.tags.forEach((tag) => {

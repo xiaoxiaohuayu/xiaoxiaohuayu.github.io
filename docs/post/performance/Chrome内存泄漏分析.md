@@ -1,3 +1,12 @@
+---
+title: Chrome 内存泄漏分析
+description: 内存泄漏分析
+firstCommit: 2025-03-25 16:20:16+8:00
+lastUpdated: 2025-03-26 10:10:21+8:00
+tags:
+  - Chrome
+---
+
 # Chrome 内存泄漏分析
 
 ## 导致内存泄漏的原因有如下四个⽅⾯：

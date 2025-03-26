@@ -1,3 +1,13 @@
+---
+title: 内存泄漏分析
+description: 内存泄漏分析
+firstCommit: 2025-03-25 16:20:16+8:00
+lastUpdated: 2025-03-26 10:10:21+8:00
+tags:
+  - 性能
+  - Chrome
+  - 转载
+---
 > 转载自
 >
 > [https://blog.mitscherlich.me/2021/05/memo-of-an-typical-optimization](https://blog.mitscherlich.me/2021/05/memo-of-an-typical-optimization)
